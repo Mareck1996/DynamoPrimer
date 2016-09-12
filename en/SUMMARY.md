@@ -22,7 +22,7 @@
   * [Gestire il tuo programma](03_Anatomy-of-a-Dynamo-Definition/3-4_best_practices.md)
   * [Gestire i tuoi dati con i preset](03_Anatomy-of-a-Dynamo-Definition/3-5_presets.md)
 
-* [I mattoni dei programmi](04_The-Building-Blocks-of-Programs/4_the-building-blocks-of-programs.md)
+* [I blocchi per costruire i programmi](04_The-Building-Blocks-of-Programs/4_the-building-blocks-of-programs.md)
 
   * [Dati](04_The-Building-Blocks-of-Programs/4-1_data.md)
   * [Matematica](04_The-Building-Blocks-of-Programs/4-2_math.md)

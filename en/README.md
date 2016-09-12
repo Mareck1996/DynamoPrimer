@@ -21,7 +21,7 @@ La Versione 1.0 di questo Primer include i primi dieci capitoli sviluppati da Mo
 * **Contesto** - Cosa è esattamente la "programmazione visuale" e quali sono i concetti che devo capire per tuffarmi in Dynamo?
 * **Per cominciare** - Dove posso ottenere Dynamo e come creo il mio primo programma?
 * **Cosa c'è in un programma** - Quali sono le parti che compongono Dynamo e come le utilizzo?
-* **Costruire i mattoni** - Cosa sono i "dati" e quali sono alcuni dei tipi fondamentali che posso iniziare a usare nei miei programmi?
+* **I blocchi da costruzione** - Cosa sono i "dati" e quali sono alcuni dei tipi fondamentali che posso iniziare a usare nei miei programmi?
 * **Geometria per la progettazione** - Come lavoro con gli elementi geometrici in Dynamo?
 * **Liste, liste, liste** - Come gestisto e coordino le mie strutture di dati?
 * **Codice nei nodi** - Come posso iniziare a estendere Dynamo con il mio codice?
