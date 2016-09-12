@@ -57,7 +57,7 @@ Grazie a Matt Jezyk, Ian Keough, Zach Kron e Colin McCrone per l'entusiasmante c
 
 http://dynamobim.com/download/
 
-**DynamoBIM** The best source for additional information, learning content, and forums is the DynamoBIM website.
+**DynamoBIM** La migliore fonte per informazioni aggiuntive, contenuti didattici e forum è il sito DynamoBIM.
 
 http://dynamobim.org
 
@@ -65,15 +65,15 @@ http://dynamobim.org
 
 https://github.com/DynamoDS/Dynamo
 
-**Contact** Let us know about any issues with this document.
+**Contattaci** Facci sapere qualunque problemi riscontri con questo documento.
 
 Dynamo@autodesk.com
 
-### License
+### Licenza
 Copyright 2016 Autodesk
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+Concesso in licenza secondo i termini della Licenza Apache, versione 2.0 (la "Licenza"); è proibito usare questo file se non in conformità alla Licenza. Una copia della Licenza è disponibile all'indirizzo:
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Se non richiesto dalla legislazione vigente o concordato per iscritto, il software distribuito nei termini della Licenza è distribuito "COSÌ COM'È", SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, esplicite o implicite. Consultare la Licenza per il testo specifico che regola le autorizzazioni e le limitazioni previste dalla medesima.
