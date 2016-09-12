@@ -18,7 +18,7 @@ Per orientarci in questa vivace ed eccitante opportunità di lavorare con Dynamo
 
 La Versione 1.0 di questo Primer include i primi dieci capitoli sviluppati da Mode Lab. Questi capitoli si concentrano sui fondamenti di cui avrai bisogno per essere pienamente operativo nello sviluppo dei tuoi programmi visuali con Dynamo e suggerimenti chiave per un utilizzo sempre più avanzato di Dynamo. Ecco cosa puoi aspettarti di imparare da questo primer:
 
-* **Contsto** - Cosa è esattamente la "programmazione visuale" e quali sono i concetti che devo capire per tuffarmi in Dynamo?
+* **Contesto** - Cosa è esattamente la "programmazione visuale" e quali sono i concetti che devo capire per tuffarmi in Dynamo?
 * **Per cominciare** - Dove posso ottenere Dynamo e come creo il mio primo programma?
 * **Cosa c'è in un programma** - Quali sono le parti che compongono Dynamo e come le utilizzo?
 * **Costruire i blocchi** - Cosa sono i "dati" e quali sono alcuni dei tipi fondamentali che posso iniziare a usare nei miei programmi?
