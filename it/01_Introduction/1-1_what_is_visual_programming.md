@@ -1,22 +1,22 @@
 ###Cosa è la programmazione visuale?
 
-Progettare spesso richiede stabilire relazioni visuali, sistemiche o geometriche tra le parti di un progetto. La maggior parte delle volte, queste relazioni sono sviluppate dal flusso di lavoro, che di porta dal concept al risultato passando per le regole. Forse senza saperlo, noi lavoriamo algoritmicamente - definendo un serie di azioni passo dopo passo che segue una logica base di input, elaborazione e output. Programmare ci permette di continuare a lavorare in questo modo ma formalizzando il nostro algoritmo.
+Progettare spesso richiede stabilire relazioni visuali, sistemiche o geometriche tra le parti di un progetto. La maggior parte delle volte, queste relazioni sono sviluppate dal flusso di lavoro, che ci porta dal concept al risultato seguendo delle regole. Forse senza saperlo, noi lavoriamo algoritmicamente - definendo un serie di azioni passo dopo passo che segue una logica base di input, elaborazione e output. Programmare ci permette di continuare a lavorare in questo modo ma formalizzando il nostro algoritmo.
 
-###Algoritmi in concreto
-Sebbene offra delle potenti oppurtunità, il termine **Algoritmo** può portare a dei fraintendimenti. Gli algoritmi possono generare risultati inaspettati, imprevedibili o fantastici, ma non sono magici. Infatti sono abbastanza semplici di per sé. Usiamo un esempio concreto come l'origami di una gru. Iniziamo con un pezzo di carta quadrato (input), seguono una serie di ripiegamenti (elaborazione), e il risultato è una gru (output).
+###Algoritmi nel concreto
+Sebbene offra delle potenti oppurtunità, il termine **Algoritmo** può portare a dei fraintendimenti. Gli algoritmi possono generare risultati inaspettati, imprevedibili o fantastici, ma non sono magici. Infatti sono abbastanza semplici di per sé. Usiamo un esempio concreto come l'origami di una gru. Iniziamo con un pezzo di carta quadrato (input), seguiamo una serie di ripiegamenti (elaborazione), ed il risultato è una gru (output).
 
 ![Origami Crane](images/1-1/00-OrigamiCrane.png)
 
-Quindi dov'è l'algoritmo? È la serie astratta di azioni, che possiamo rappresentare in un paio di modi - testualmente o graficamente.
+Quindi dov'è l'algoritmo? È la serie astratta di azioni, che possiamo rappresentare in due modi - testualmente o graficamente.
 
 **Istruzioni testuali:**
 
 1. Inizia con un pezzo di carta quadrato, con una faccia colorata. Piegalo a metà e aprilo. Poi piegalo a metà, nell'altra direzione.
-2. Gira verso l'alto il lato bianco. Piega il foglio a metà, piega bene e apri, e piega ancora nell'altra direzione.
-3. Usando le pieghe che hai fatto, porta i 3 angoli del modellino in alto sotto, all'angolo in basso. Appiattisci il modellino.
-4. Piega i lembi del triangolo superiore verso il centro e riaprili.
+2. Gira verso l'alto il lato bianco. Piega il foglio a metà, premi bene e apri. Piega ancora nell'altra direzione.
+3. Usando le pieghe che hai fatto, porta i tre angoli del modellino in alto sotto, all'angolo in basso. Appiattisci il modellino.
+4. Piega i lembi esterni verso il centro e riaprili.
 5. Piega la parte superiore del modellino verso il basso, piega bene e riapri.
-6. Apri il lembo più alto del modello, portandolo verso l'alto e premendo i lati del modellino verso l'interno allo stesso tempo. Appiattisci, piegando bene.
+6. Apri il lembo inferiore del modello, portandolo verso l'alto e premendo i lati del modellino verso l'interno allo stesso tempo. Appiattisci, piegando bene.
 7. Capovolgi il modellino e ripeti i passi 4-6 sull'altro lato.
 8. Piaga i lembi superiori nel centro.
 9. Ripeti sull'altro lato.
@@ -30,16 +30,16 @@ Quindi dov'è l'algoritmo? È la serie astratta di azioni, che possiamo rapprese
 ![Needs Update- Origami Crane](images/1-1/01-OrigamiCraneInstructions.png)
 
 ###Programmazione - Definizione
-Usando una qualunque di queste due serie di istruzioni dovresti ottenere una gru, e se hai seguito il procedimento tu stesso, hai applicato un algoritmo. La sola differenza è il metodo con cui leggiamo la formalizzazione di quella serie di istruzioni e questo ci porta al concetto di **Programmazione**. La programmazione è l'atto di formalizzare il processo di una serie di azioni in un programma eseguibile. Se trasformiamo le istruzioni sopra per creare una piega in un formato che il nostro computer può leggere e eseguire, siamo programmando.
+Usando una qualunque di queste due serie di istruzioni dovresti ottenere una gru, e se hai seguito il procedimento tu stesso, hai applicato un algoritmo. La sola differenza è il metodo con cui leggiamo la formalizzazione di quella serie di istruzioni e questo ci porta al concetto di **programmazione**. La programmazione è l'atto di formalizzare il processo di una serie di azioni in un programma eseguibile. Se trasformiamo le istruzioni scritte sopra per creare un origami in un formato che il nostro computer può leggere ed eseguire, stiamo programmando.
 
-La chiave ed il primo ostacolo che incontreremo nella programmazione è che dovremo affidarci a una qualche forma di astrazione per comunicare efficacemente con il nostro computer. Questo può essere uno qualunque dei numerosi linguaggi di programmazione, come Javascript, Python o C. Se riusciamo a scrivere una serie di istruzioni ripetibili, come per l'origami della gru, ci manca solo di tradurla per il computer. Siamo sulla buona strada per rendere il computer capace di realizzare una gru, o perfino una moltitudine di gru diverse, con leggere differenze tra una e l'altra. Questo è la potenza della programmazione - il computer eseguirà ripetutamente qualsiasi compito, o serie di compiti, gli assegneremo, senza ritardi e senza errori umani.
+La chiave ed il primo ostacolo che incontreremo nel capire la programmazione è che dovremo affidarci a una qualche forma di astrazione per comunicare efficacemente con il nostro computer. Questa può essere uno qualunque dei numerosi linguaggi di programmazione, come Javascript, Python o C. Se riusciamo a scrivere una serie di istruzioni ripetibili, come per l'origami della gru, ciò che dobbiamo fare è tradurla per il computer. Siamo sulla buona strada per rendere il computer capace di realizzare una gru, o perfino una moltitudine di gru diverse, con leggere differenze tra una e l'altra. Questo è la potenza della programmazione - il computer eseguirà ripetutamente qualsiasi compito, o serie di compiti, gli assegneremo, senza ritardi e senza errori umani.
 
 ####Programmazione visuale - Definizione
 >Scarica il file di esempio che accompagna questo esercizio (tasto destro e "Salva Link come..."): [Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn). Una lista completa dei file di esempio può essere trovata nell'Appendice.
 
 Se fossi incaricato di scrivere le istruzioni per piegare l'origami della gru, come ti comporteresti? Useresti la grafica, il testo o una combinazione di entrambi?
 
-Se la tua risposta contiene la grafica, la **Programmazione visuale ** fa senz'altro per te. Il processo è essenzialmente il medesimo sia per la programmazione che per la programmazione visuale. Utilizzano la stessa struttura e formalizzazione; ciò nonostante, definiamo le istruzioni e le relazioni del nostro programma tramite un'interfaccia utente grafica (o "visuale"). Invece di digitare le istruzioni testuali in una sintassi, connettiamo insieme dei nodi preconfezionati. Ecco un confronto dello stesso algoritmo - "disegna un cerchio sulla base di un punto" - programmato con i nodi contro il codice:
+Se la tua risposta contiene la grafica, la **Programmazione visuale** fa senz'altro per te. Il processo è essenzialmente il medesimo sia per la programmazione che per la programmazione visuale. Utilizzano la stessa struttura e formalizzazione; ciò nonostante, definiamo le istruzioni e le relazioni del nostro programma tramite un'interfaccia utente grafica (o "visuale"). Invece di digitare le istruzioni testuali in una sintassi, ci basterà connettere dei nodi preconfezionati tra loro. Ecco un confronto dello stesso algoritmo - "disegna un cerchio sulla base di un punto" - programmato con i nodi e con il codice:
 
 **Programma visuale:**
 
