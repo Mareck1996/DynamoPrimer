@@ -1,79 +1,79 @@
-#Dynamo Primer
-##Per Dynamo v1.0
+#The Dynamo Primer
+##For Dynamo v1.0
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
-> Dynamo è una piattaforma open source per la programmazione visuale progettisti.
+> Dynamo is an open source visual programming platform for designers.
 
-### Benvenuto
-Sei appena entrato in Dynamo Primer, un'esauriente guida alla programmazione visuale in Autodesk Dynamo Studio. Questa introduzione è un progetto in continuo sviluppo per condividere le basi della progemmazione. Gli argomenti trattati includono la geometria computazionale, la realizzazione di progetti parametrici, la programmazione di applicazioni multidisciplinari, e molto altro con Dynamo.
+### Welcome
+You have just opened the Dynamo Primer, a comprehensive guide to visual programming in Autodesk Dynamo Studio. This primer is an on-going project to share the fundamentals of programming. Topics include working with computational geometry, best practices for rules-based design, cross-disciplinary programming applications, and more with the Dynamo Platform.
 
-La potenza di Dynamo può essere impegata in una grande varietà di attività relative alla progettazione. Dynamo permette di seguire diverse strade facilmente accessibili per iniziare a utilizzarlo: 
-* **Esplora** la programmazione visuale per la prima volta
-* **Connetti** i flussi di lavoro in vari software
-* **Partecipa** ad una comunità attiva di utenti, collaboratori e sviluppatori
-* **Sviluppa** una piattaforma open-source per un miglioramento continuo
+The power of Dynamo can be found in a wide variety of design-related activities. Dynamo enables an expanding list of readily accessible ways for you to get started:
+* **Explore** visual programming for the first time
+* **Connect** workflows in various software
+* **Engage** an active community of users, contributors, and developers
+* **Develop** an open-source platform for continued improvement
 
-Per orientarci in questa vivace ed eccitante opportunità di lavorare con Dynamo, abbiamo bisogno di un documento di un certo calibro, Dynamo Primer.
+In the midst of this activity and exciting opportunity for working with Dynamo, we need a document of the same caliber, the Dynamo Primer.
 
-La Versione 1.0 di questo Primer include i primi dieci capitoli sviluppati da Mode Lab. Questi capitoli si concentrano sui fondamenti di cui avrai bisogno per essere pienamente operativo nello sviluppo dei tuoi programmi visuali con Dynamo e suggerimenti chiave per un utilizzo sempre più avanzato di Dynamo. Ecco cosa puoi aspettarti di imparare da questo primer:
+Version 1.0 of this Primer includes the first ten chapters developed by Mode Lab. These chapters focus on the essentials you will need to get up and running developing your own visual programs with Dynamo and key insights on how to take Dynamo further. Here's what you can expect to learn from the primer:
 
-* **Contesto** - Cosa è esattamente la "programmazione visuale" e quali sono i concetti che devo capire per tuffarmi in Dynamo?
-* **Per cominciare** - Dove posso ottenere Dynamo e come creo il mio primo programma?
-* **Cosa c'è in un programma** - Quali sono le parti che compongono Dynamo e come le utilizzo?
-* **I blocchi da costruzione** - Cosa sono i "dati" e quali sono alcuni dei tipi fondamentali che posso iniziare a usare nei miei programmi?
-* **Geometria per la progettazione** - Come lavoro con gli elementi geometrici in Dynamo?
-* **Liste, liste, liste** - Come gestisto e coordino le mie strutture di dati?
-* **Codice nei nodi** - Come posso iniziare a estendere Dynamo con il mio codice?
-* **BIM computazionale** - Come posso usare Dynamo con un modello di Revit?
-* **Nodi personalizzati** - Come posso inizare a creare i miei nodi?
-* **Pacchetti** - Come posso condividere i miei strumenti con la comunità?
+* **Context** - What exactly is "Visual Programming" and what are the concepts I need to understand to dive in to Dynamo?
+* **Getting Started** - How do I get Dynamo and create my first program?
+* **What's in a Program** - What are the functional parts of Dynamo and how do I use them?
+* **Building Blocks** - What is "Data" and what are some fundamental types I can start using in my programs?
+* **Geometry for Design** - How do I work with geometric elements in Dynamo?
+* **Lists, Lists, Lists** - How to do I manage and coordinate my data structures?
+* **Code in Nodes** - How can I start extending Dynamo with my own code?
+* **Computational BIM** - How can I use Dynamo with a Revit model?
+* **Custom Nodes** - How can I create my own nodes?
+* **Packages** - How can I share my tools with the community?
 
-Questo è un periodo eccitante per imparare, lavorare e sviluppare con Dynamo. Iniziamo!
+This is an exciting time to be learning about, working with, and developing for Dynamo. Let's get started!
 
 ---
 
 ### Open Source
-Il progetto Dynamo Primer è open source! Siamo dediti a provvedere contenuti di qualità ed apprezziamo ogni opinione e suggerimento. Se volessi segnalarci un problema di qualunque genere, per favore inseriscilo sulla nosra pagina delle segnalazioni su git hub: https://github.com/DynamoDS/DynamoPrimer/issues
+The Dynamo Primer project is open source! We're dedicated to providing quality content and appreciate any feedback you may have. If you would like to report an issue on anything at all, please post them on our git hub issue page: https://github.com/DynamoDS/DynamoPrimer/issues
 
-Se volessi contribuire ad una nuova sezione, modifica o qualunque altra cosa riguardante questo progetto, controlla la nostra pagina su github per iniziare: https://github.com/DynamoDS/DynamoPrimer.
+If you would like to contribute a new section, edits, or anything else to this project, check out the github repo to get started: https://github.com/DynamoDS/DynamoPrimer.
 
 ---
-### Il progretto Dynamo Primer
-Dynamo Primer è un progetto open-source, iniziato da Matt Jezyk e dal Dynamo Development team di Autodesk.
+### The Dynamo Primer Project
+The Dynamo Primer is an open source project, initiated by Matt Jezyk and the Dynamo Development team at Autodesk.
 
-**Mode Lab** è stata incaricata di scrivere la prima edizione del primer. Il team continua a lavorare con Autodesk per provvedere aggiornamenti in parallelo con lo sviluppo di Dynamo.
+**Mode Lab** was commissioned to write the First Edition of the primer. The team continues to work with Autodesk to provide updates in parallel with Dynamo's development.
 
 [<img src="images/MODELAB_Logo.png">](http://modelab.is)
 
-### Ringraziamenti
+### Acknowledgments
 
-Un ringraziamento speciale a Ian Keough per avere iniziato e guidato il progetto Dynamo.
+A special thanks to Ian Keough for initiating and guiding the Dynamo project.
 
-Grazie a Matt Jezyk, Ian Keough, Zach Kron e Colin McCrone per l'entusiasmante collaborazione e l'opportunità di partecipare a una grande quantità di progetti in Dynamo.
+Thank you to Matt Jezyk, Ian Keough, Zach Kron, and Colin McCrone for enthusiastic collaboration and the opportunity to participate on a wide array of Dynamo projects.
 
-### Software e risorse
-**Dynamo** Al momento l'ultima distribuzione stabile di Dynamo è la versione 0.9.
+### Software and Resources
+**Dynamo** The current stable release of Dynamo is Version 0.9.
 
 http://dynamobim.com/download/
 
-**DynamoBIM** La migliore fonte per informazioni aggiuntive, contenuti didattici e forum è il sito DynamoBIM.
+**DynamoBIM** The best source for additional information, learning content, and forums is the DynamoBIM website.
 
 http://dynamobim.org
 
-**Dynamo GitHub** Dynamo è un progetto open-sourceDynamo is an open-source development project on Github. To contribute, check out DynamoDS.
+**Dynamo GitHub** Dynamo is an open-source development project on Github. To contribute, check out DynamoDS.
 
 https://github.com/DynamoDS/Dynamo
 
-**Contattaci** Facci sapere qualunque problemi riscontri con questo documento.
+**Contact** Let us know about any issues with this document.
 
 Dynamo@autodesk.com
 
-### Licenza
+### License
 Copyright 2016 Autodesk
 
-Concesso in licenza secondo i termini della Licenza Apache, versione 2.0 (la "Licenza"); è proibito usare questo file se non in conformità alla Licenza. Una copia della Licenza è disponibile all'indirizzo:
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Se non richiesto dalla legislazione vigente o concordato per iscritto, il software distribuito nei termini della Licenza è distribuito "COSÌ COM'È", SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, esplicite o implicite. Consultare la Licenza per il testo specifico che regola le autorizzazioni e le limitazioni previste dalla medesima.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

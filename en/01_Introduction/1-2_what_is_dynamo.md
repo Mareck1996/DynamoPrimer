@@ -1,29 +1,29 @@
-##Cosa è Dynamo?
-Dyanamo è, abbastanza letteralmente, è ciò che ne fai. Lavorare con Dynamo potrebbe includere l'utilizzo dell'applicazione, sia in connessione con un software Autodesk o no, integrare un processo di programmazone visuale, o partecipare ad un'ampia comunità di utenti e collaboratori.
+##What is Dynamo?
+Dynamo is, quite literally, what you make it. Working with Dynamo may include using the application, either in connection with other Autodesk software or not, engaging a Visual Programming process, or participating in a broad community of users and contributors.
 
-###L'applicazione
-Dynamo, l'applicazione, è un software che può essere scaricato ed eseguito sia autonomamente in modalità "Sandbox" o come plug-in per altri software come Revit o Maya. È descritto come: 
-> Uno strumento di programmazione visuale che punta ad essere accessibile sia ai non programmatori che ai programmatori allo stesso modo. Da agli utenti l'abilità di elaborare i comportamenti visivamente, definire blocchi logici personalizzati, e utilizzare vari linguaggi di programmazione testuali.
+###The Application
+Dynamo, the application, is a software that can be downloaded and run in either stand-alone "Sandbox" mode or as a plug-in for other software like Revit or Maya. It is described as:
+> A visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 
 ![Dyanmo website-update number](images/1-2/00-DynamoHomepage.png)
-> 1. Guarda Dynamo in azione con Revit
-2. Scarica il programma d'installazione
+> 1. See Dynamo in action with Revit
+2. Download the installer
 
-###Il processo
-Una volta che hai installato l'applicazione, Dynamo ci permetterà di lavorare nel processo della programmazione visuale, connettendo elementi per definire le relazioni e le sequenze di azione che compongono gli algoritmi personalizzati. Possiamo usare i nostri algoritmi a un'ampia gamma di applicazione - dall'elaborazione dei dati alla generazione di geometrie - il tutto in tempo reale e senza dovere scrivere una riga di ```codice```.
+###The Process
+Once we've installed the application, Dynamo will enable us to work within a Visual Programming process wherein we connect elements together to define the relationships and the sequences of actions that compose custom algorithms. We can use our algorithms for a wide array of applications - from processing data to generating geometry - all in realtime and without writing a lick of ```code```.
 
 ![A Visual Program](images/1-2/01-ProgramFlow.png)
-> Aggiungi elementi, connetti, e siamo pronti per creare programmi visuali.
+> Add elements, connect, and we are off and running with creating Visual Programs.
 
-###La Comunità
-Dynamo non sarebbe quello che è senza un forte gruppo di utenti appassionati e di collaboratori attivi. Unisciti alla comunità seguendo il Blog, aggiungendo il tuo lavoro alla Gallery o discutendo di Dynamo nel Forum.
+###The Community
+Dynamo wouldn't be what it is without a strong group of avid users and active contributors. Engage the community by following the Blog, adding your work to the Gallery, or discussing Dynamo in the Forum.
 
 ![The Forum](images/1-2/02-Community.png)
 
-###La piattaforma
-Dynamo è concepito come uno strumento per la programmazione visuale per progettisti, che ci permette di realizzare strumenti che utilizzano librerie esterne o qualunque prodotto Autodesk che ha un API. Con Dynamo Studio possiamo sviluppare programmi in un'applicazione in stile "Sandbox" - ma l'ecosistema di Dynamo continua a crescere.
+###The Platform
+Dynamo is envisioned as a visual programming tool for designers, allowing us to make tools that make use of external libraries or any Autodesk product that has an API. With Dynamo Studio we can can develop programs in a "Sandbox" style application - but the Dynamo ecosystem continues to grow.
 
-Il codice sorgente del progetto è open-source, permettendoci di estendere le sue funzionalità ai nostri contenuti preferiti. Controlla il progetto su Github e sfoglia i lavori in corso degli utenti che stanno personalizzando Dynamo
+The source code for the project is open-source, enabling us to extend its functionality to our hearts content. Check out the project on Github and browse the Works in Progress of users customizing Dynamo.
 
 ![The Repo](images/1-2/03-TheRepo.png)
-> Sfoglia, crea un tuo ramo ed inizia ad estendere Dynamo per le tue esigenze
+> Browse, Fork, and start extending Dynamo for your needs
