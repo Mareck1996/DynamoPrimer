@@ -1,45 +1,45 @@
-##Installing and Launching Dynamo
+##Installare ed avviare Dynamo
 
-Dynamo is an active open-source development project with downloadable installers for both official and pre-release, ie. "daily build" versions. Download the official release to get started, or contribute to what Dynamo becomes through the daily builds or Github project.
+Dynamo è un progetto open-source che permette di scaricare l'installazione sia per le versioni ufficiali che per le pre-release, per esempio le versioni "daily build". Scarica la versione ufficiale per iniziare, o contribuisci a ciò che Dynamo diventerà tramite le versioni giornaliere o il progetto su Github.
 
-###Downloading
-To download the official released version of Dynamo, visit the [Dynamo website](http://dynamobim.com/). Start the download of Version 0.8.0 immediately by clicking from the homepage or browse to the dedicated download page.
+###Download
+Per scaricare la versione ufficile di Dynamo visita il [sito web di Dynamo](http://dynamobim.com/). Inizia il download della versione 1.1.0 immediatamente cliccando dalla homepage o sfogliando la pagina dedicata al download.
 
 ![website homepage](images/2-1/01-DynamoHomepage.png)
-> 1. Watch a video on Computational Design with Dynamo for Architecture
-2. Or browse to the download page
+> 1. Guarda un video sulla progettazione computazionale con Dynamo per l'architettura
+2. O sfoglia la pagina del download
 
-Here you can download the "bleeding edge" development versions or go to the [Dynamo Github](https://github.com/DynamoDS/Dynamo) project.
+Qui puoi scaricare le versioni ancora in sviluppo o andare alla pagina [Github Dynamo](https://github.com/DynamoDS/Dynamo)
 
 ![website downloads page](images/2-1/02-DynamoDownload.png)
-> 1. Download official release or daily build installers
-2. Get involved in the development of Dynamo on Github
+> 1. Scarica la versione ufficiale o le installazioni delle versioni giornaliere
+2. Inizia a sviluppare Dynamo su Github
 
-###Installing
-Browse to the directory of the downloaded installer and run the executable file. During the installation process, the setup allows you to customize the components that will be installed.
+###Installazione
+Apri la cartella di download del programma d'installazione ed esegui il file. Durante il processo di installazione, le impostazioni ti permettono di personalizzare i componenti che verranno installati.
 
 ![Setup Window](images/2-1/03-InstallSetup.png)
-> 1. Select the Components you want to install
+> 1. Seleziona i componenti che vuoi installare
 
-Here we need to decide if we want to include the components that connect Dynamo to other installed applications such as Revit. For more information on the Dynamo Platform, see **Chapter 1.2**.
+Qui dobbiamo decidere se vogliamo includere i componenti che connettono Dynamo alle altre appicazioni installati, come Revit. Per maggiori informazioni sulla piattaforma Dynamo, vai al **Capitolo 1.2**.
 
-###Launching
-To launch Dynamo, browse to the Windows Start Menu > Dynamo > **Dynamo 0.8.1**. This will open the stand-alone version and present Dynamo's *Start Page*. On this page, we see the standard menus and toolbar as well as a collection of shortcuts that allow us to access file functionality or access additional resources.
+###Avvio
+Per avviare Dynamo, sfoglia il menù Start di Windows > Dynamo > **Dynamo 1.1.0**. Questo aprirà la versione stand-alone e mostrerà la *pagina iniziale* di Dynamo. Su questa pagina possiamo vedere i menù e la barra degli strumenti standard così come una collezione di scorciatoie che ci permettono di accedere a determinati file o a risorse aggiuntive.
 
 ![NEEDS UPDATE - labels Dynamo start page](images/2-1/04-DynamoStartpage.png)
 
->1. Files - Start a new file or open an existing one
-2. Recent - Scroll through your recent files
-3. Samples - Check out the examples that come with the installation
-4. Ask - Get direct access to the User Forum or Dynamo Website
-5. Reference - Go further with additional learning resources
-6. Code - Participate in the open-source development project
+>1. Documenti - Crea un nuovo documento o aprine uno esistente
+2. Recenti - Scorri tra i tuoi documenti recenti
+3. Esempi - Controlla gli esempi che sono inclusi nell'installazione
+4. Chiedi - Un accesso diretto al forum e al sito web di Dynamo
+5. Riferimenti - Scopri di più con risorse aggiuntive
+6. Codice - Partecipa allo sviluppo del progetto open-source
 
-Open the first sample file to open your first workspace and confirm Dynamo is working correctly. Click Samples > Basics > **Basics_Basic01.dyn**.
+Apri il primo file d'esempio per entrare nel tuo primo spazio di lavoro e assicurarti che Dynamo stiamo funzionando correttamente. Clicca su Samples > Basics > **Basics_Basic01.dyn**.
 
 ![NEEDS UPDATE - Basics_Basic01](images/2-1/05-Basics_Basic01.png)
-> 1. Confirm that the Execution Bar says "Automatic" or click Run
-2. Follow the instructions and connect the **Number** Node to the **+** Node
-3. Confirm that this Watch Node shows a result
+> 1. Assicurati che sulla barra di esecuzione ci sia la scritta "Automatic" o premi Run
+2. Segui le istruzioni e connetti il nodo **Number** al nodo **+**
+3. Assicurati che il noto Watch mostri il risultato
 
-If this file successfully loads, you should be able to execute your first visual program with Dynamo.
+Se il tuo file si carica con successo dovresti essere in grado di eseguire il tuo primo programma visuale con Dynamo.

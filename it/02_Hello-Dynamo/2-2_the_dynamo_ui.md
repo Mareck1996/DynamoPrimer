@@ -1,20 +1,20 @@
-##The Dynamo User Interface
+##L'interfaccia utente di Dynamo
 
-The User Interface (UI) for Dynamo is organized into five main regions, the largest of which is the workspace where we compose our visual programs.
+L'interfaccia utente (UI) di Dynamo è organizzata in cinque marcoregioni, la più grande delle quali è lo spazio di lavoro dove componiamo i nostri programmi visuali.
 
 ![User Interface Regions](images/2-2/01-UI-Regions.png)
 
->1. Menus
-2. Toolbar
-3. Library
-4. Workspace
-5. Execution Bar
+>1. Menù
+2. Barra degli strumenti
+3. Libreria
+4. Spazio di lavoro
+5. Barra di esecuzione
 
-Let's dive deeper into the UI and explore the functionality of each region.
+Analizziamo approfonditamente la UI ed esploriamo le funzionalità di ogni regione.
 
-####Menus
+####Menù
 
-The Dropdown Menus are a great place to find some of the basic functionality of the Dynamo application. Like most Windows software, actions related to managing files and operations for selection and content editing are found in the first two menus. The remaining menus are more specific to Dynamo.
+I menù a tendina sono il posto perfetto per trovare alcune delle funzionalità base di Dynamo. Come per la maggior parte dei software Windows, le funzioni per la gesione dei documenti e le operazioni di selezione e modifica dei contenuti si trovano nei primi due menù. I restanti menù sono quelli specifici di Dynamo.
 
 ![Dropdown Menus](images/2-2/02-Menus.png)
 > 1. File
@@ -24,83 +24,83 @@ The Dropdown Menus are a great place to find some of the basic functionality of 
 5. Settings
 6. Help
 
-####Toolbar
+####Barra degli strumenti
 
-Dynamo's Toolbar contains a series of buttons for quick access to working with files as well as Undo [Ctrl + Z] and Redo [Ctrl + Y] commands. On the far right is another button that will export a snapshot of the workspace, which is extremely useful for documentation and sharing.
+La barra degli strumenti di Dynamo contiene una serie di pulsanti per un accesso rapido ai file di lavoro e i comandi annulla [Ctrl + Z] e rifai [Ctrl + Y]. Sulla destra si trova un altro pulsante che esporterà un'istantanea dello spazio di lavoro, una funzione estremamente utile per documentare e condividere.
 
 ![Needs Update-split location Toolbar](images/2-2/03-Toolbar.png)
 
-> 1. New - Create a new .dyn file
-2. Open - Open an existing .dyn (workspace) or .dyf (custom node) file
-3. Save/Save As - Save your active .dyn or .dyf file
-4. Undo - Undo your last action
-5. Redo - Redo the next action
-6. Export Workspace as Image - Export the visible workspace as a PNG file
+> 1. New - Crea un nuovo file .dyn
+2. Open - Apri un file .dyn esistente (spazio di lavoro) o .dyf (nodo personalizzato)
+3. Save/Save As - Salva il tuo file attivo .dyn o .dyf
+4. Undo - Annulla l'ultima azione
+5. Redo - Ripeti la prossima azione
+6. Export Workspace as Image - Esporta la porzione visibile dello spazio di lavoro come file .PNG
 
-####Library
-The Library contains all of the loaded Nodes, including the default Nodes that come with the installation as well as any additionally loaded Custom Nodes or Packages. The Nodes in the Library are organized hierarchically within libraries, categories, and, where appropriate, sub-categories based on whether the Nodes **Create** data, execute an **Action**, or **Query** data.
+####Libreria
+La libreria contiene tutti i nodi caricati, inclusi quelli di default che vengono provvisti con l'installazione così come i nodi personalizzati aggiuntivi che vengono caricati o i pacchetti. I nodi nella libreria sono organizzati gerarchicamente in librerie, categorie e, dove necessario, sotto categorie in base a ciò che il nodo **Crea**, l'**Azione** che esegue, o i dati che **Estrae**.
 
-#####Browsing
-By default, the **Library** will contain eight categories of Nodes. **Core** and **Geometry** are great menus to begin exploring as they contain the largest quantity of Nodes.  Browsing through these categories is the fastest way to understand the hierarchy of what we can add to our Workspace and the best way to discover new Nodes you haven't used before.
+#####Sfogliare
+Di default, la **libreria** conterrà otto categorie di nodi. **Core** e **Geometry** sono degli ottimi menù per iniziare a esplorare, dal momento che contengono la quantità maggiore di nodi. Sfogliare queste categorie è il modo più veloce per comprendere la gerarchia di ciò che possiamo aggiungere al nostro spazio di lavoro e il migliore per scoprire nuovi nodi che non hai mai usato prima.
 
-> We will focus on the default collection of Nodes now, but note that we will extend this Library with Custom Nodes, additional libraries, and the Package Manager later.
+> Ci concentreremo sulla collezione default di nodi per adesso, ma più avanti estenderemo queste libreria con nodi personalizzati, librerie aggiuntive e il gestore dei pacchetti.
 
 ![NEEDS UPDATE-full width - Library Categories](images/2-2/04-LibraryCategories.png)
 >1. Analyze
-2. Built-in Functions
+2. Funzioni Built-in
 3. Core
 4. Geometry
 5. Migration
 6. Office
 7. Operators
 
-Browse the Library by clicking through the menus. Click the Geometry > Circle. Note the new portion of the menu that is revealed and specifically the **Create** and **Query** Labels.
+Soglia la libreria cliccando tra i menù. Clicca su Geometry > Cirle. Nota la nuova porzione di menù che è comparsa e specificatamente le etichette **Crea** e **Estrai**.
 
 ![NEEDS UPDATE-use full width - Browsing the Library](images/2-2/05-LibraryBrowsing.png)
->1. Library
-2. Category
-3. Subcategory: Create/Actions/Query
-4. Node
-5. Node Description and properties - this appears when hovering over the node icon.
+>1. Libreria
+2. Categoria
+3. Sotto categoria: Crea/Azioni/Estrai
+4. Nodo
+5. Descrizione del nodo e delle proprietà - appare lasciando il puntatore sull'icona del nodo.
 
-From the same Circle menu, hover your mouse over **ByCenterPointRadius**. The window reveals more detailed information about the Node beyond its name and icon. This offers us a quick way to understand what the Node does, what it will require for inputs, and what it will give as an output.
+Dallo stesso menù del cerchio, posiziona il tuo mouse su **ByCenterPointRadius**. La finestra rivela informazioni più dettagliate sul nodo oltre al suo nome e all'icona. Questo ci offre un modo veloce per capire cosa fa un nodo, cosa richiede per input e cosa darà come output.
 
 ![Node Pop Up Window](images/2-2/06-NodePopup.png)
->1. Description - plain language description of the Node
-2. Icon - larger version of the icon in the Library Menu
-3. Input(s) - name,  data type, and data structure
-4. Output(s) - data type and structure
+>1. Descrizione - descrizione testuale completa del nodo
+2. Icona - Versione ingrandita dell'icona nel menù della libreria
+3. Input - nome, tipo di dato e struttura dei dati
+4. Output - tipo di dato e struttura
 
-#####Searching
-If you know with relative specificity which Node you want to add to your Workspace, the **Search** field is your best friend. When you are not editing settings or specifying values in the Workspace, the cursor is always present in this field. If you start typing, the Dynamo Library will reveal a selected best fit match (with breadcrumbs for where it can be found in the Node categories) and a list of alternate matches to the search. When you hit Enter, or click on the item in the truncated browser, the highlighted Node is added to the center of the Workspace.
+#####Ricerca
+Se sai abbastanza specificatamente quale nodo vuoi aggiungere al tuo spazio di lavoro, il campo **Cerca** è il tuo migliore amico. Quando non stai modificando le impostazioni o specificando valori nello spadio di lavoro, il cursore è sempre attivo in questo campo. Se inizi a digitare, la libreria di Dynamo mostrerà una selezione delle migliori corrispondenze (con le indicazioni per sapere in quele categoria di nodi si trova) e una lista delle corrispondenze alternative alla ricerca. Quando premi Invio, o clicchi su un oggetto nel browser, il nodo evidenziato viene aggiunto al centro dello spazio di lavoro.
 
 ![Searching the Library](images/2-2/07-LibrarySearching.png)
->1. Search Field
-2. Best Fit Result / Selected
-3. Alternate Matches
+>1. Campo di ricerca
+2. Miglior risultato / Selezionato
+3. Corrispondenze alternative
 
-###Settings
-From geometric to user settings, these options can be found in the **Settings** menu. Here you can opt in or out for sharing your user data to improve Dynamo as well as define the application's decimal point precision and geometry render quality.
+###Impostazioni
+Dalle impostazioni geometriche a quelle utente, queste opzioni possono essere trovate nel menù **Settings**. Qui puoi scegliere se condividere o meno i tuoi dati utenti per migliorare Dynamo così come definire la precisione decimale dei numeri nell'applicazione e la qualità del render delle geometrie.
 
-> Note: Remember that Dynamo's units are generic.
+> Nota: Ricorda che le unità di Dynamo sono generiche.
 
 ![show menu](images/2-2/08-Settings.png)
 
->1. Enabling Reporting
-2. Number Format
-3. Render Quality
+>1. Autorizza i report
+2. Formato numeri
+3. Qualità render
 
-###Help
-If you're stuck, check out the **Help** Menu. Here you can find the sample files that come with your installation as well as access one of the Dynamo reference websites through your internet browser. If you need to, check the version of Dynamo installed and whether it is up to date through the **About** option.
+###Aiuto
+Se sei bloccato, controlla il menù **Help**. Qui puoi trovare i file di esempio che sono inclusi nell'installazione o accedere a uno dei siti di riferimento di Dynamo dal tuo browser internet. Se hai bisogno, controlla la versione di Dynamo installata e se è aggiornata dall'opzione "About".
 
 ![show menu](images/2-2/09-Help.png)
 
->1. Samples
-2. Report A Bug
-3. Go To Project Website
-4. Go To Project Wiki
-5. Display Start Page
-6. About
+>1. Samples - Esempi
+2. Report A Bug - Riporta un malfunzionamento
+3. Go To Project Website - Vai al sito web del progetto
+4. Go To Project Wiki - Vai alla Wiki del progetto
+5. Display Start Page - Mostra la pagina iniziale
+6. About - Informazioni
 
 
 
