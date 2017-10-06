@@ -3,7 +3,7 @@
 * [Dynamo Primer](README.md)
 * [Introduzione](01_Introduction/1_introduction.md)
 
-  * [Cos'è la programmazione visiva?](01_Introduction/1-1_what_is_visual_programming.md)
+  * [Cos'è la programmazione visuale?](01_Introduction/1-1_what_is_visual_programming.md)
   * [Cos'è Dynamo?](01_Introduction/1-2_what_is_dynamo.md)
   * [Dynamo in azione](01_Introduction/1-3_dynamo_in_action.md)
 

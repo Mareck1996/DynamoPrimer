@@ -11,7 +11,7 @@ Un dato è una serie di valori di variabili qualitative o quantitative. La forma
 3. Un'azione (un nodo) senza dati in input restituisce una funzione generica
 
 ###Conoscere i Nulls
-Il tipo ```'null'``` rappresenta l'assenza di dati. Sebbene si tratti di un concetto astratto, lo incontrerai piuttosto spesso mentre lavori con la programmazione visiva. Se un'azione non genera un risultato valido, il nodo restituirà un null. Verificare i null e rimuoverli dalle strutture di dati è una parte cruciale per creare programmi robusti.
+Il tipo ```'null'``` rappresenta l'assenza di dati. Sebbene si tratti di un concetto astratto, lo incontrerai piuttosto spesso mentre lavori con la programmazione visuale. Se un'azione non genera un risultato valido, il nodo restituirà un null. Verificare i null e rimuoverli dalle strutture di dati è una parte cruciale per creare programmi robusti.
 
 | Icona | Nome/Sintassi | Input | Output |
 | -- | -- | -- | -- | -- | -- |

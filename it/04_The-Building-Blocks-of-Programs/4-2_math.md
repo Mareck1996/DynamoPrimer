@@ -20,10 +20,10 @@ Dagli operatori, il prossimo passo logico è combinare operatori e variabili per
 >1. **Number Sequence:** definisce una sequenza di numeri basata su tre input: *start*, *amount* e *step*. Questa sequenza rappresenta la 't' nell'equazione parametrica, quindi vogliamo usare un elenco grande abbastanza da definire una spirale.
 
 Il passo precedente ha creato un elenco di numeri per definire il dominio parametrico. La spirale aurea è definita dall'equazione: ![](images/4-2/4-2-5/x.gif)=![](images/4-2/4-2-5/goldenSpiral.gif) e
-![](images/4-2/4-2-5/y.gif)=![](images/4-2/4-2-5/goldenSpiral2.gif). Il gruppo di nodi sotto rappresenta questa equazione nella forma della programmazione visiva.
+![](images/4-2/4-2-5/y.gif)=![](images/4-2/4-2-5/goldenSpiral2.gif). Il gruppo di nodi sotto rappresenta questa equazione nella forma della programmazione visuale.
 
 ![](images/4-2/4-2-5/02.png)
-> Quando percorri il gruppo di nodi, prova a prestare attenzione al parallelo tra la programmazione visiva e l'equazione scritta.
+> Quando percorri il gruppo di nodi, prova a prestare attenzione al parallelo tra la programmazione visuale e l'equazione scritta.
 1. **Number Slider:** Aggiungi due slider all'area di lavoro. Questi dispositivi di scorrimento rappresenteranno le variabili *a* e *b* dell'equazione parametrica. Queste sono costanti flessibili, o parametriche che possiamo aggiustare per ottenere il risultato desiderato.
 2. ** * :** Il nodo moltiplicazione è rappresentato con un asterisco. Lo useremo ripetutamente per connettere variabili da moltiplicare.
 3. **Math.RadiansToDegrees:** il valore '*t*' necessita di essere tradotto in gradi per essere valutati nelle funzioni trigonometriche. Ricorda, Dynamo richiede valori in gradi da valutare in queste funzioni.

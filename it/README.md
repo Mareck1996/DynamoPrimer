@@ -3,13 +3,13 @@
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
-> Dynamo è una piattaforma di programmazione visiva open source per progettisti.
+> Dynamo è una piattaforma di programmazione visuale open source per progettisti.
 
 ### Benvenuto
-Sei appena entrato in Dynamo Primer, un'esauriente guida alla programmazione visiva in Autodesk Dynamo Studio. Questa introduzione è un progetto in continuo sviluppo per condividere le basi della programmazione. Gli argomenti trattati includono la geometria computazionale, la realizzazione di progetti parametrici, la programmazione di applicazioni multidisciplinari, e molto altro con Dynamo.
+Sei appena entrato in Dynamo Primer, un'esauriente guida alla programmazione visuale in Autodesk Dynamo Studio. Questa introduzione è un progetto in continuo sviluppo per condividere le basi della programmazione. Gli argomenti trattati includono la geometria computazionale, la realizzazione di progetti parametrici, la programmazione di applicazioni multidisciplinari, e molto altro con Dynamo.
 
 La potenza di Dynamo può essere impegata in una grande varietà di attività relative alla progettazione. Dynamo permette di seguire diverse strade, facilmente accessibili, per iniziare ad utilizzarlo: 
-* **Esplora** la programmazione visiva per la prima volta
+* **Esplora** la programmazione visuale per la prima volta
 * **Connetti** i flussi di lavoro in vari software
 * **Partecipa** ad una comunità attiva di utenti, collaboratori e sviluppatori
 * **Sviluppa** una piattaforma open-source in continuo miglioramento
@@ -18,7 +18,7 @@ Per orientarci in questa vivace ed eccitante opportunità di lavorare con Dynamo
 
 La Versione 1.0 di questo Primer include i primi dieci capitoli sviluppati da Mode Lab. Questi capitoli si concentrano sui fondamenti di cui avrai bisogno per essere pienamente operativo nello sviluppo dei tuoi programmi visivi con Dynamo e suggerimenti chiave per un utilizzo sempre più avanzato di Dynamo. Ecco cosa puoi aspettarti di imparare da questo primer:
 
-* **Contesto** - Cosa è esattamente la "programmazione visiva" e quali sono i concetti che devo capire per iniziare a usare Dynamo?
+* **Contesto** - Cosa è esattamente la "programmazione visuale" e quali sono i concetti che devo capire per iniziare a usare Dynamo?
 * **Per cominciare** - Dove posso ottenere Dynamo e come creo il mio primo programma?
 * **Cosa c'è in un programma** - Quali sono le parti che compongono Dynamo e come le utilizzo?
 * **I blocchi da costruzione** - Cosa sono i "dati" e quali sono alcuni dei tipi fondamentali che posso iniziare a usare nei miei programmi?
