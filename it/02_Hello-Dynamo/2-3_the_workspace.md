@@ -1,82 +1,83 @@
-##The Workspace
+##L'area di lavoro
 
-The Dynamo **Workspace** is where we develop our visual programs, but it's also where we preview any resulting geometry. Whether we are working in a Home Workspace or a Custom Node, we can navigate with our mouse or the buttons at top right. Toggling between modes at bottom right switches which preview we navigate.
+In Dynamo l'**area di lavoro** è dove sviluppiamo i nostri programmi visivi, ma è anche dove vediamo in anteprima ogni geometria risultante. Sia se stiamo operando in un'area di lavoro normale che in un nodo personalizzato, possiamo navigare con il nostro mouse o con i bottoni in alto a destra. Azionando i pulsanti in alto a destra possiamo invece cambiare l'anteprima che vogliamo navigare.
 
-> Note: Nodes and geometry have a draw order so you may have objects rendered on top of each other. This can be confusing when adding multiple nodes in sequence as they may be rendered in the same position in the Workspace.
+> Nota: I nodi e le relative geometrie vengono disegnati seguendo un ordine preciso, quindi potresti visualizzare oggetti sovrapposti. L'anteprima potrebbe diventare poco chiara quando si aggiungono più nodi in sequenza, in quanto potrebbero essere visualizzati nella medesima posizione nell'area di lavoro.
 
 ![Workspace Regions](images/2-3/01-WorkspaceRegions.png)
 
->1. Tabs
-2. Zoom/Pan Buttons
-3. Preview Mode
-4. Double Clicking on the Workspace
+>1. Schede
+2. Pulsanti per Zoom/Pan 
+3. Modalità anteprima
+4. Doppio click nell'area di lavoro
 
-###Tabs
-The active Workspace tab allows you to navigate and edit your program. When you open a new file, by default you are opening a new **Home** Workspace. You may also open a new **Custom Node** Workspace from the File Menu or by the *New Node by Selection* right click option when Nodes are selected (more eon this functionality later).
+###Schede
+Attivare una scheda ti permette di navigare nella relativa area di lavoro e modificare il tuo programma. Quando apri un nuovo file, di default stai aprendo una nuova area di lavoro **base**. Potresti anche aprire un'area di lavoro per un nuovo **nodo personalizzato** dal menù file o dall'opzione *Nuovo nodo dalla selezione* cliccando con il tasto destro quando dei nodi sono selezionati (parleremo più avanti di questa funzionalità).
 
 ![Tabs](images/2-3/02-Tabs.png)
 
-> Note: You may have only one Home Workspace open at a time; however, you may have multiple Custom Node Workspaces open in additional tabs.
+> Nota: Puoi avere una sola area di lavoro base aperta per volta; ciò nonostante potresti avere diverse aree di lavoro per nodi personalizzati aperti in schede aggiuntive.
 
-###Graph versus 3D Preview Navigation
-In Dynamo, the Graph and the 3D results of the Graph (if we are creating geometry) are both rendered in the Workspace. By default the Graph is the active preview, so using the Navigation buttons or middle mouse button to pan and zoom will move us through the Graph. Toggling between active previews can be achieved three ways:
+###Navigazione del grafico e dell'anteprima 3D
+In Dynamo, il grafico e il risultato 3D del grafico (se stiamo creando delle geometrie) sono entrambi visualizzati nello spazio di lavoro. Di default quella del grafico è l'antemprima attiva, quindi usando i pulsanti di navigazione o il tasto centrale del mouse per effettuare un pan o uno zoom ci muoveremo nel grafico. È possibile cambiare l'anteprima attiva in tre diversi modi:
 
 ![Navigation](images/2-3/03-PreviewNavigations.png)
 
-> 1. Preview Toggle Buttons in the Workspace
-2. Right clicking in the Workspace and selecting *Switch to ... View*
-3. Keyboard shortcut (Ctrl + B)
+> 1. I pulsanti di anteprima nell'area di lavoro
+2. Cliccando con il tasto destro nell'area di lavoro e selezionando *Passa alla vista ...*
+3. Scorciatoia da tastiera (Ctrl + B)
 
-The 3D Preview Navigation mode also gives us the ability for **Direct Manipulation** of points, exemplified in [Getting Started](http://dynamoprimer.com/02_Hello-Dynamo/2-6_the_quick_start_guide.html).
+La modalità navigazione nell'anteprima sfondo 3D ci permette anche di effettuare una **Manipolazione diretta** dei punti, come spiegato in [Iniziare con Dynamo](http://dynamoprimer.com/02_Hello-Dynamo/2-6_the_quick_start_guide.html).
 
-###Zoom to Recenter
- We can easily pan, zoom and rotate freely around models in 3D Preview Navigation mode. However, to zoom specifically on an object created by a geometry node, we can use the Zoom All icon with a single node selected.
+###Zoom per centrare
+
+Possiamo facilmente translare, ingrandire e ruotare liberamente intorno ai modelli nella modalità di navigazione dell'anteprima sfondo 3D. Se invece vogliamo ingrandire specificatamente su un oggetto generato da un nodo geometrico, possiamo usare l'icona Ingrandisci Tutti con un solo nodo selezionato.
 
 ![Zoom to Recenter 1](images/2-3/03-ZoomToRecenter_1.jpg)
-> 1. Select the node corresponding to the geometry  that will center the view. 
-2. Switch to the 3D Preview Navigation. 
+> 1. Seleziona il nodo corrispondente alla geometria su cui vuoi centrare la vista.
+2. Attiva la navigazione dell'anteprima sfondo 3D.
 
 ![Zoom to Recenter 2](images/2-3/03-ZoomToRecenter_2.jpg)
-> 1. Click on the Zoom All icon in the top right.
-2. The selected geometry will be centered inside the view.
+> 1. Clicca sull'icona Ingrandisci Tutti in alto a destra.
+2. La geometria selezionata verrà centrato nella vista.
 
 ###Hello Mouse!
 
-Based on which Preview mode is active, your mouse buttons will act differently. In general, the left mouse click selects and specifies inputs, the right mouse click gives access to options, and the middle mouse click allows you to navigate the Workspace. The right mouse click will present us with options based on the context of where we are clicking.
+A seconda di quale modalità di anteprima è attiva, i pulsanti del tuo mouse si comporteranno in modo differente. In generale, il tasto sinistro seleziona e specifica gli input, quello destro ti da accesso alle opzioni e il tasto centrale ti permette di navigare nell'area di lavoro. Il click con il tasto destro ti presenterà opzioni diverse a seconda del contesto in cui stai cliccando.
 
 ![Hello Mouse](images/2-3/04-HelloMouse.png)
 
->1. Right Click on the Workspace.
-2. Right Click on a Node.
-3. Right Click on a Note.
+>1. Click con il tasto destro sull'area di lavoro.
+2. Click con il tasto destro su un nodo.
+3. Click con il tasto destro su una nota.
 
-Here's a table of mouse interactions per Preview:
+Ecco una tabella delle interazioni del mouse a seconda dell'anteprima:
 
-**Mouse Action** | **Graph Preview** | **3D Preview**
+**Azione del Mouse** | **Anteprima grafico** | **Anteprima sfondo 3D**
 --- | --- | ---
-Left Click | Select | N/A
-Right Click | Context Menu | Zoom Options
-Middle Click | Pan | Pan
+Tasto sinistro | Seleziona | n/d
+Tasto destra | Menù contestuale | Opzioni zoom
+Tasto centrale | Pan | Pan
 Scroll | Zoom In/Out | Zoom In/Out
-Double Click | Create Code Block | N/A
+Doppio click | Crea un blocco di codice | n/d
 
-###In-Canvas Search
+###Ricerca sulla tela
 
-Using the "In-Canvas Search" will add some serious speed to your Dynamo work-flow by providing you access to node descriptions and tool-tips without taking you away from your place on the graph! By just right-clicking, you can access all the useful functionality of the "Library Search" from wherever you happen to be working on the canvas.
+Usare la "ricerca sulla tela" aggiungerà sensibilmente velocità al tuo flusso di lavoro in Dynamo, mettendoti a disposizione l'accesso alla descrizioni dei nodi ed ai consigli rapidi senza dovere lasciare il tuo posto sul grafico! Semplicemente cliccando con il tasto destro, puoi accedere a tutte le utili funzionalità della "ricerca nella libreria" da ovunque ti trovi a lavorare sulla tela.
 
 ![In Canvas Search](images/2-3/05-InCanvasSearch.png)
 
->1. Right click anywhere on the canvas to bring up the search feature. While the search bar is empty, the drop-down will be a preview menu.
-2. As you type into the search bar, the drop-down menu will continuously update to show the most relevant search results.
-3. Hover over the search results to bring up their corresponding descriptions and tool-tips.
+>1. Clicca con il tasto destro ovunque sulla "tela" per aprire la funzione di ricerca. Quando la barra è vuota, la tendina sarà un menù dell'anteprima.
+2. Digitando nella barra di ricerca, il menù a tendina si aggiornerà continuamente per mostrare i risultati più rilevanti.
+3. Posiziona il mouse sul risultato della ricerca per aprire la descrizione e i consigli rapidi corrispondenti.
 
-##Clean Up Node Layout
-Keeping your Dynamo canvas organized becomes increasingly important as your files build in complexity. Although we have the **Align Selection** tool to work with small amounts of selected Nodes, Dynamo also features the **Cleanup Node Layout** tool to help with overall file cleanup. 
-####Before Node Cleanup
+##Semplifica layout nodi
+Mantenere la tela di Dynamo ordinata diventa sempre più importante con il crescere della complessità del tuo programma. Anche se abbiamo lo strumento **Allinea selezione** per lavorare con una piccola quantità di nodi, Dynamo ci mette a disposizione anche lo strumento **Semplifica layout nodi** per aiutarci nella semplificazione generale del file.
+####Prima la semplificazione dei nodi
 ![Cleanup Node Layout](images/2-3/06-CleanupNodeLayout.png)
->1.	Select the Nodes to be automatically organized, or leave all unselected to clean up all nodes in the file. 
-2.	The Cleanup Node Layout feature is located under the Edit tab.
-####After Node Cleanup 
+>1.	Seleziona i nodi che devono essere organizzati automaticamente, o non selezionarne nessuno se vuoi semplificare il layout di tutti i nodi del file.
+2.	La funzione Semplifica layout nodi è posizionata nell menù Modifica.
+####Dopo la semplificazione dei nodi
 ![Clean Layout Example](images/2-3/07-CleanupNodeLayout.png)
->1.	The nodes will be automatically re-distributed and aligned, cleaning up any staggered or overlapping nodes and aligning them with neighboring nodes.
+>1.	I nodi verranno automaticamente redistribuiti e allineati, aggiustando tutti i nodi fuori posto o sovrapposti e allineandoli con i nodi vicini.
 

@@ -62,7 +62,7 @@ Dynamo プロジェクトの創立と指揮に携わった Ian Keough 氏に、�
 
 ### ソフトウェアとリソース
 
-**Dynamo**: 現在の公式リリースのバージョンは 1.0.0 です。
+**Dynamo**: 現在の公式リリースのバージョンは 1.1.0 です。
 
 [http://dynamobim.com/download/](http://dynamobim.com/download/) (英語)
 

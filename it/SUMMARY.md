@@ -3,7 +3,7 @@
 * [Dynamo Primer](README.md)
 * [Introduzione](01_Introduction/1_introduction.md)
 
-  * [Cos'è la programmazione visuale?](01_Introduction/1-1_what_is_visual_programming.md)
+  * [Cos'è la programmazione visiva?](01_Introduction/1-1_what_is_visual_programming.md)
   * [Cos'è Dynamo?](01_Introduction/1-2_what_is_dynamo.md)
   * [Dynamo in azione](01_Introduction/1-3_dynamo_in_action.md)
 
@@ -11,18 +11,18 @@
 
   * [Installare e avviare Dynamo](02_Hello-Dynamo/2-1_launching_dynamo.md)
   * [L'interfaccia utente](02_Hello-Dynamo/2-2_the_dynamo_ui.md)
-  * [Lo spazio di lavoro](02_Hello-Dynamo/2-3_the_workspace.md)
-  * [Iniziare](02_Hello-Dynamo/2-6_the_quick_start_guide.md)
+  * [L'area di lavoro](02_Hello-Dynamo/2-3_the_workspace.md)
+  * [Iniziare con Dynamo](02_Hello-Dynamo/2-6_the_quick_start_guide.md)
 
-* [L'anatomia della programmazione visuale](03_Anatomy-of-a-Dynamo-Definition/3_anatomy-of-a-dynamo-definition.md)
+* [L'anatomia di un programma visivo](03_Anatomy-of-a-Dynamo-Definition/3_anatomy-of-a-dynamo-definition.md)
 
-  * [Nodi](03_Anatomy-of-a-Dynamo-Definition/3-1_dynamo_nodes.md)
-  * [Cavi](03_Anatomy-of-a-Dynamo-Definition/3-3_wiring_programs.md)
-  * [Libraria](03_Anatomy-of-a-Dynamo-Definition/3-2_dynamo_libraries.md)
+  * [I Nodi](03_Anatomy-of-a-Dynamo-Definition/3-1_dynamo_nodes.md)
+  * [I Wire](03_Anatomy-of-a-Dynamo-Definition/3-3_wiring_programs.md)
+  * [La Libraria](03_Anatomy-of-a-Dynamo-Definition/3-2_dynamo_libraries.md)
   * [Gestire il tuo programma](03_Anatomy-of-a-Dynamo-Definition/3-4_best_practices.md)
-  * [Gestire i tuoi dati con i preset](03_Anatomy-of-a-Dynamo-Definition/3-5_presets.md)
+  * [Gestire i tuoi dati con le preimpostazioni](03_Anatomy-of-a-Dynamo-Definition/3-5_presets.md)
 
-* [I blocchi per costruire i programmi](04_The-Building-Blocks-of-Programs/4_the-building-blocks-of-programs.md)
+* [I blocchi da costruzione dei programmi](04_The-Building-Blocks-of-Programs/4_the-building-blocks-of-programs.md)
 
   * [Dati](04_The-Building-Blocks-of-Programs/4-1_data.md)
   * [Matematica](04_The-Building-Blocks-of-Programs/4-2_math.md)
@@ -41,12 +41,12 @@
   * [Mesh](05_Geometry-for-Computational-Design/5-7_meshes.md)
   * [Importare geometrie](05_Geometry-for-Computational-Design/5-8_importing.md)
 
-* [Progettare con le liste](06_Designing-with-Lists/6_designing-with-lists.md)
+* [Progettare con gli elenchi](06_Designing-with-Lists/6_designing-with-lists.md)
 
-  * [Cosa è una lista](06_Designing-with-Lists/6-1_whats-a-list.md)
-  * [Lavorare con le liste](06_Designing-with-Lists/6-2_working-with-lists.md)
-  * [Liste di liste](06_Designing-with-Lists/6-3_lists-of-lists.md)
-  * [Liste n-dimensionali](06_Designing-with-Lists/6-4_n-dimensional-lists.md)
+  * [Cosa è un elenco](06_Designing-with-Lists/6-1_whats-a-list.md)
+  * [Lavorare con gli elenchi](06_Designing-with-Lists/6-2_working-with-lists.md)
+  * [Elenchi di elenchi](06_Designing-with-Lists/6-3_lists-of-lists.md)
+  * [Elenchi n-dimensionali](06_Designing-with-Lists/6-4_n-dimensional-lists.md)
 
 * [Blocchi di codice e DesignScript](07_Code-Block/7_Code-Blocks-and-Design-Script.md)
 

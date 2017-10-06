@@ -62,7 +62,7 @@ Vielen Dank auch an Matt Jezyk, Ian Keough, Zach Kron and Colin McCrone für die
 
 ### Software und Ressourcen
 
-**Dynamo** Das aktuelle stabile Release von Dynamo ist Version 0.9.
+**Dynamo** Das aktuelle stabile Release von Dynamo ist Version 1.1.0.
 
 [http://dynamobim.com/download/](http://dynamobim.com/download/)
 

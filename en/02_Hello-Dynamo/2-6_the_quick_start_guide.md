@@ -62,7 +62,7 @@ Starting simple and building complexity is an effective way to incrementally dev
 
 ![Updated graph](images/2-4/07-AddingComplexity.png)
 >1. Add a **Number Sequence** Node and replace the inputs of **Point.ByCoordinates** - Right Click Point.ByCoordinates and select Lacing > Cross Reference
-2. Add a **Flatten** Node after  Point.ByCoordinates
+2. Add a **Flatten** Node after Point.ByCoordinates
 3. The 3D Preview will update with a grid of circles
 
 ###Adjusting with Direct Manipulation

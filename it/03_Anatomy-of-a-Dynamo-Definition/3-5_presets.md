@@ -1,40 +1,41 @@
-## Managing Your Data with Presets
+## Gestire i tuoi dati con le preimpostazioni
 
-In the previous section we looked at managing programs by aligning, grouping, and annotating nodes to organize the Workspace. These best practices help to reduce some of the visual complexity of your graph. Now let's dive deeper and organize the complexity of content.  Often, a Dynamo graph has a wide range of parameters which offer countless iterations.  We want to organize the range of options so that we can make real design decisions - and this is where Presets come in. 
+Nella sezione precedente abbiamo visto come gestire i programmi allineando, raggruppando, e commentando i nodi per organizzare l'area di lavoro. Queste buone pratiche aiutano a ridurre la complessità visica del tuo grafico. Ora esploreremo approfonditamente come organizzare la complessità del contenuto. Spesso, un grafico in Dynamo ha un'ampia varietà di parametri che offrono infinite iterazioni. Vogliamo organizzare questa serie di opzioni così da poter prendere delle vere decisioni in fase di progettazione - ed è qui che entrano in gioco le preimpostazioni.
 
-Imagine that you've created a Dynamo graph to share with a team so that each team member can explore the parametric model.  Your team members have a range of experience with visual programming, so you want to offer some direction for them to explore different design schemes.  The easiest, most user-friendly way to do this is with presets - you can set any number of parameters to define a specific design iteration. This allows you to reload previous schemes and work with them parametrically. 
+Immagina di avere creato un grafico di Dynamo da condividere con un gruppo di persone così che ogni membro del gruppo possa esplorare il modello parametrico. I membri del tuo gruppo hanno ognuno un livello di esperienza diverso con la programmazione visiva, quindi vuoi offrgli delle indicazioni per esplorare diverse variabili del progetto. Il modo più semplice e facile da usare per fare ciò è utilizzando le preimpostazioni - puoi impostare un numero qualsiasi di parametri che definiscono una specifica variabile di progetto. Questo ti permette di ricaricare schemi precedenti e lavorarci parametricamente.
 
-###Presets
+###Preimpostazioni
 
-Presets are a way to take the current value of a selection of input nodes and save them as a preset state. These states can be restored through the Edit>Presets menu. Presets can be used to create and compare design iterations. Presets are saved with the file, making them a useful tool for sharing or requesting feedback. They also allow another user to interact with the graph without having to search for the relevant inputs, or tune a set of values that work well together from a design perspective.
+Le preimpostazioni sono un modo per prendere i valori correnti di una selezione di nodi di input e salvarli come stato preimpostato. Questi stati possono essere ripristinati dal menù Modifica>Preimpostazioni. Le preimpostazioni possono essere usate per creare e confrontare diverse variabili di progetto. Le preimpostazioni sono salvate all'interno del file, facendo di loro un utile strumento per condividere o richiedere un'opinione. Permettono anche agli altri utenti di interagire con il grafico senza dover cercare gli input rilevanti, o trovare una serie di valori che lavorano bene insieme in una prospettiva di progetto.
 
 ![](images/3-5/presetsA.png)
->1. Preset 1
->2. Preset 2
+>1. Preimpostazione 1
+>2. Preimpostazione 2
 
-###Creating Presets
+###Creare una preimpostazione
 
->Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Prests.dyn](datasets/3-5/Presets.dyn). A full list of example files can be found in the Appendix.
+>Scarica il file di esempio che accompagna questo esercizio (tasto destro e "Salva Link come..."): [Prests.dyn](datasets/3-5/Presets.dyn). . Una lista completa dei file di esempio può essere trovata nell'Appendice.
 
-To create a preset, select one or more input nodes. Right-click the canvas and select "Create Preset from Selection", or press Control+T. 
-Let's take a look at an example. Below is a simple graph that creates a surface by lofting through a series of circles. 
+Per creare una preimpostazione, seleziona uno o più nodi di input. Clicca con il tasto destro nell'area di lavoro e seleziona "Crea preimpostazione dalla selezione", o premi Ctrl+T.
+Diamo un'occhiata ad un esempio. Qui sotto c'è un semplice grafico che crea una superficie a partire da una serie di cerchi.
 
 ![Create Preset](images/3-5/presetsB.png)
->1. The inputs of the graph are a series of sliders controlling the height and radii
+>1. Gli input del grafico sono una serie di dispositivi di scorrimento che controllano altezza e raggio
 
 ![Create Preset](images/3-5/presetsC.png)
->Select the input sliders and type Control+T
+>Seleziona gli input dei dispositivi di scorrimento e premi Ctrl+T
 
 ![Create Preset](images/3-5/presetsD.png)
->Enter a name and description for the saved state in the dialog. Create several states with different input values.
+>Inserisci un nome ed una descrizione per lo stato da salvare nella finestra di dialogo. Crea diversi stati con differenti valori di input.
 
-###Restoring Presets
-To restore a saved preset, navigate to Edit>Presets>Restore Preset. This will set all the nodes in that state to the saved values. If a node in the state is no longer present in the graph (ie. if it has been deleted), all other nodes in the state will be set.
+###Ripristinare le preimpostazioni
+Per ripristinare una preimpostazione salvata, seleziona Modifica>Preimpostazioni>Ripristina preimpostazione. Così facendo in tutti i nodi verranno impostati i valori salvati. Se un nodo dello stato non è più presente nel grafico (per esempio è stato eliminato), tutti gli altri nodi nello stato verranno impostati. 
+
 
 ![Restoring Presets](images/3-5/presetsE.png)
 
-###Deleting Presets
-To delete a preset, navigate to Edit>Presets>Delete Preset. This will remove a state from the list of saved states.
+###Eliminare una preimpostazione
+Per eliminare una preimpostazione, seleziona Modifica>Preimpostazioni>Elimina preimpostazione. Così facendo verrà rimosso lo stato dalla lista degli stati salvati.
 
 ![Deleting Presets](images/3-5/presetsF.png)
 

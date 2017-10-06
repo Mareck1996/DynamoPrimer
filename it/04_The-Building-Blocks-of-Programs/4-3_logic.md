@@ -1,73 +1,73 @@
-##Logic
-**Logic**, or more specifically, **Conditional Logic**, allows us to specify an action or set of actions based on a test. After evaluating the test, we will have a Boolean value representing ```True``` or ```False``` that we can use to control the Program Flow.
+##Logica
+La **Logica**, o più precisamente, un'**implicazione logica**, ci permette di specificare un'azione o una serie di azione basate su un test. Dopo aver valutato il test, avremo un valore Booleano rappresentante ```Vero``` o ```Falso``` che possiamo usare per controllare il flusso del proramma.
 
-###Booleans
-Numeric variables can store a whole range of different numbers. Boolean variables can only store two values referred to as True or False, Yes or No, 1 or 0. We rarely use booleans to perform calculations because of their limited range.
+###Booleane
+Le variabili numeriche possono memorizzare una grande varietà di numeri differenti. Le variabili booleane possono memorizzare solo due valori, a cui si fa riferimento come Vero o Falso, Si o No, 1 o 2. Le booleane vengono usate raramente per eseguire dei calcoli proprio per la loro portata limitata.
 
-###Conditional Statements
-The "If" statement is a key concept in programming: "If *this* is true, then *that* happens, otherwise *something else* happens. The resulting action of the statement is driven by a boolean value. There are multiple ways to define an "If" statement in Dynamo:
+###Condizione logica
+La condizione "If" è un concetto chiave nella programmazione: "Se *questo* è vero, *quello* accade, altrimento *qualcos'altro* accade. L'azione risultante della condizione è controllata da un valore booleano. Ci sono diversi modi per definire una condizione "If" in Dynamo:
 
-| Icon | Name | Syntax| Inputs | Outputs |
+| Icona | Nome | Sintassi| Input | Output |
 | -- | -- | -- | -- | -- | -- |-- |
 | ![](../images/icons/DSCoreNodesUI-Logic-If-Large.png) | If | If | test, true, false | result|
 | ![](../images/icons/DSCoreNodesUI-Formula-Large.png) | Formula | IF(x,y,z) | x, y, z | result |
-| ![](../images/icons/Dynamo-Nodes-CodeBlockNodeModel-Large.png) | Code Block | (x?y:z)| x, y, z | result|
-Let's go over a brief example on each of these three nodes in action using the conditional "If" statement:
+| ![](../images/icons/Dynamo-Nodes-CodeBlockNodeModel-Large.png) | Blocco di codice | (x?y:z)| x, y, z | result|
+Vediamo un breve esempio per ciascuno di questi tre nodi in azione usando la condizione logica "If":
 
 ![](images/4-3/IFs.png)
-> In this image, the *boolean* is set to *true*, which means that the result is a string reading: *"this is the result if true".*  The three Nodes creating the *If* statement are working identically here.
+> In questa immagine, la *booleana* è impostata su *vero*, cioè il risultato è una stringa con scritto: *"questo è il risultato se è vero".* I tre nodi che creano la condizione *If* stanno funzionando allo stesso modo.
 
 ![](images/4-3/IFs2.png)
-> Again, the Nodes are working identically.  If the *boolean* is changed to *false*, our result is the number *Pi*, as defined in the original *If* statement.
+> Ancora una volta, i nodi stanno funzionando allo stesso modo. Se la booleano viene cambiata su *falso*, il nostro risultato è il numero *Pi*, come definito dalla condizione *If* originaria.
 
-###Filtering a List
->Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Building Blocks of Programs - Logic.dyn](datasets/4-3/Building Blocks of Programs - Logic.dyn). A full list of example files can be found in the Appendix.
+###Filtrare un elenco
+>Scarica il file di esempio che accompagna questo esercizio (tasto destro e "Salva Link come..."): [Building Blocks of Programs - Logic.dyn](datasets/4-3/Building Blocks of Programs - Logic.dyn). Una lista completa dei file di esempio può essere trovata nell'Appendice.
 
-Let's use logic to separate a list of numbers into a list of even numbers and a list of odd numbers.
+Proviamo ad usare la logica per separare un elenco di numeri in un elenco di numeri pari e in un elenco di numeri dispari.
 
 ![](images/4-3/01.png)
-> 1. **Number Range -** add a number range to the canvas.
-2. **Numbers -** add three number nodes to the canvas.  The value for each number node should be: *0.0* for *start*, *10.0* for *end*, and *1.0* for *step*.
-3. **Output - ** our output is a list of 11 numbers ranging from 0-10.
-4. **Modulo (%)-** *Number Range* into *x* and *2.0* into *y*.  This calculates the remainder for each number in the list divided by 2. The output from this list gives us a list of values alternating between 0 and 1.
-5. **Equality Test (==) -** add an equality test to the canvas.  Plug *modulo* output into the *x* input and *0.0* into the *y* input.
-6. **Watch -** The output of the equality test is a list of values alternating between true and false.  These are the values used to separate the items in the list.  *0* (or *true*) represents even numbers and (*1*, or *false*) represents odd numbers.
-6. **List.FilterByBoolMask -** this Node will filter the values into two different lists based on the input boolean.  Plug the original *number range* into the *list* input and the *equality test** output into the *mask* input.  The *in* output represents true values while the *out* output represents false values.
-7. **Watch - ** as a result, we now have a list of even numbers and a list of odd numbers. We've used logical operators to separate lists into patterns!
+> 1. **Number Range -** aggiungi un number range all'area di lavoro.
+2. **Numbers -** aggiungi tre nodi number all'area di lavoro. Il valore di ciascun nodo number dovrebbe essere: *0.0* per *start*, *10.0* per *end* e *1.0* per *step*.
+3. **Output - ** il nostro output è un elenco di 11 numeri che variano da 0-10.
+4. **Modulo (%)-** *Number Range* in *x* e *2.0* in *y*.  Così facendo viene calcolato il resto di ogni numero nella lista diviso per 2. L'output da questo elenco è un elenco di valori che si alternano tra 0 e 1.
+5. **Test di uguaglianza (==) -** aggiungi il test di uguaglianza all'area di lavoro. Inserisci l'output *modulo* nell'input *x* e *0.0* nell'input *y*.
+6. **Watch -** l'output del test di uguaglianza è un elenco di valori che si alternano tra vero e falso. Questi sono i valori usati per separare gli oggetti nell'elenco.  *0* (o *vero*) rappresenta i numeri pari e *1* (o *falso*) rappresenta i numeri dispari.
+6. **List.FilterByBoolMask -** questo nodo filtrerà i valori in due elenchi diversi basati sulla booleana in input. Inserisci il *number range* originale nell'input *list* e l'output dell'*equality test* nell'input *mask*. L'output *in* rappresenta i valori veri mentre l'output *out* rappresenta i valori falsi.
+7. **Watch - ** come risultato, ora abbiamo un elenco di numeri pari e un elenco di numeri dispari. Abbiamo usato gli operatori logici per separare elenchi secondo modelli logici!
 
-###From Logic to Geometry
-Building off of the logic established in the first exercise, let's apply this setup into a modeling operation.
+###Dalla logica alla geometria
+Sviluppando la logica stabilita nel primo esercizio, applichiamo questo schema in un'operazione di modellzione.
 
 ![](images/4-3/02.png)
-> 1. We'll jump off from the previous exercise with the same Nodes.  The only exceptions:
-2. We've changed the format.
-3. The input values have changed.
-4. We've unplugged the in list input into *List.FilterByBoolMask*. We'll put these Nodes aside for now, but they'll come in handy later in the exercise.
+> 1. Inizieremo dall'esercizio precedente con gli stessi nodi, con alcune eccezioni:
+2. Abbiamo cambiato la disposizione.
+3. I valori di input sono cambiati.
+4. Abbiamo disconnesso l'elenco dell'input in nel nodo *List.FilterByBoolMask*. Metteremo questi nodi da parte per adesso, ma torneranno utili più tardi nell'esercizio.
 
 ![](images/4-3/03.png)
-> Let's begin by connecting the Nodes together as shown in the image above. This group of Nodes represents a parametric equation to define a line curve. A few notes:
-1. The **first slider** should have a min of 1, a max of 4, and a step of 0.01.
-2. The **second slider** should have a min of 0, a max of 1, and a step of 0.01.
-3. **PolyCurve.ByPoints -** if the above Node diagram is copied, the result is a sine curve in the Dynamo Preview viewport.
+> Iniziamo collegando i nodi insieme come mostrato nell'immagine sopra. Questo gruppo di nodi rappresenta un'equazione parametrica che definisce una curva. Qualche nota:
+1. Il **primo slider** dovrebbe avere un min di 1, un max di 4, e uno step di 0.01.
+2. Il **secondo slider** dovrebbe avere un min di 0, un max di 1, e uno step di 0.01.
+3. **PolyCurve.ByPoints -** se il diagramma di nodi qua sopra viene copiato, il risultato è una sinusoide nella vista di anteprima di Dynamo.
 
-The method here for the inputs: use number nodes for more static properties and number sliders on the more flexible ones.  We want to keep the original number range that we're defining in the beginning of this step.  However, the sine curve that we create here should have some flexibility.  We can move these sliders to watch the curve update its frequency and amplitude.
+Il metodo usato per gli input: usa i nodi number per le proprietà più statiche e dei number slider per quelle più flessibili. Vogliamo mantenere i dominio originale che abbiamo definito all'inizio di questo passo. In ogni caso, la sinusoide che abbiamo creato dovrebbe avere della flessibilità. Possiamo muovere questi slider per vedere la curva aggiornare la sua frequenza e ampiezza.
 
 ![](images/4-3/04.png)
-> We're going to jump around a bit in the definition, so let's look at the end result so that we can reference what we're getting at.  The first two steps are made separately, we now want to connect the two.  We'll use the base sine curve to drive the location of the zipper components, and we'll use the true/false logic to alternate between little boxes and larger boxes.
+> Stiamo per fare un piccolo salto nella spiegazione, quindi diamo un'occhiata al risultato finale così da peter avere un riferimento su ciò che stiamo cercando di ottenere. I primi due passi sono stati realizzati separatamente, ora vogliamo connetterli.Useremo la sinusoide come base per controllare la posizione dei componenti a cerniera, e useremo la logica vero/falso per alternare blocchi piccoli e blocchi grandi.
 
 ![](images/4-3/05.png)
-> 1. **Math.RemapRange - ** Using the number sequence created in step 01, let's create a new series of numbers by remapping the range.  The original numbers from step 01 range from 0-100.  These numbers range from 0 to 1 by the *newMin* and *newMax* inputs respectively.
+> 1. **Math.RemapRange - ** Usando la sequenza di numeri creata nel passo 01, creiamo una nuova serie di numeri rimappando il dominio. I numeri originali dal passo 01 variano tra 0-100. Questi numeri variano da 0 a 1 dagli input *newMin* e *newMax* rispettivamente.
 
 ![](images/4-3/06.png)
-> 1. **Curve.PointAtParameter - ** Plug *Polycurve.ByPoints* (from step 2) into *curve* and *Math.RemapRange* into *param*. This step creates points along the curve. We remapped the numbers to 0 to 1 because the input of *param* is looking for values in this range.  A value of *0* represents the start point, a value of *1* represents the end points.  All numbers in between evaluate within the *[0,1]* range.
+> 1. **Curve.PointAtParameter - ** Collega *Polycurve.ByPoints* (dal passo 2) a *curve* e *Math.RemapRange* a *param*. Questo passo crea i punti sulla curva. Abbiamo rimappato i numeri da 0 a 1 proprio perchè l'input *param* richiede valori in questo intervallo. Un valore di *0* rappredenta il punto d'inizio, un valore di *1* rappresenta il punto finale. Tutti i numeri in mezzo sono contenuti nell'intervatto *[0,1]*.
 
 ![](images/4-3/07.png)
-> 1. **List.FilterByBoolMask - ** Plug *Curve.PointAtParameter* from the previous step into the *list* input.
-2. **Watch -** a watch node for *in* and a watch node for *out* shows that we have two lists representing even indices and odd indices.  These points are ordered in the same way on the curve, which we demonstrate in the next step.
+> 1. **List.FilterByBoolMask - ** Collega *Curve.PointAtParameter* dal passo precedente nell'input *list*.
+2. **Watch -** un nodo watch per *in* e un nodo watch per *out* mostrano che abbiamo due elenchi rappredentanti gli indici pari e gli indici dispari. Questi punti sono ordinati nello stesso nodo della curva, che dimostreremo nel prossimo passo.
 
 ![](images/4-3/08.png)
-> 1. **Cuboid.ByLengths -** recreate the connections seen in the image above to get a zipper along the sine curve. A cuboid is just a box here, and we're defining its size based on the curve point in the center of hte box.  The logic of the even/odd divide should now be clear in the model.
+> 1. **Cuboid.ByLengths -** ricrea i collegamenti visti nell'immagine sopra per avere una cerniera lungo la sinusoide. Un cuboide è semplicemente una scatola, e ne stiamo definendo le dimensioni a seconda del punto della curva al centrodel blocco. La logica della divisione pari/dispari dovrebbe ora essere chiara nel modello.
 
 ![](images/4-3/matrix.png)
-> 1. **Number Slider -** stepping back to the beginning of the definition, we can flex the number slider and watch the zipper update.  The top row of images represents a range values for the top number slider. This is the frequency of the wave.
-2. **Number Slider -** the bottom row of images represents a range of values for the bottom slider.  This is the amplitude of the wave.
+> 1. **Number Slider -** tornando all'inizio della spiegazione, possiamo modificare i number slider e vedere l'aggiornamento della cerniera. La fila di immagini in alto rappresenta diversi valori per il number slider in alto. Questa è la frequenza dell'onda.
+2. **Number Slider -** la fila in basso di immagini rappresenta diversi valori per lo slider in basso. Questa è l'ampiezza dell'onda.

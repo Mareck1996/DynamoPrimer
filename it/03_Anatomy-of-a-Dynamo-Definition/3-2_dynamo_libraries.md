@@ -1,45 +1,45 @@
-##Dynamo Library
+##La libreria di Dynamo
 
-The **Dynamo Library** contains the Nodes we add to the Workspace to define Visual Programs for execution. In the Library, we can search for or browse to Nodes. The Nodes contained here - the basic Nodes installed, Custom Nodes we define, and Nodes from the Package Manager that we add to Dynamo - are organizaed hierachically by category. Let's review this organization and explore the key Nodes we will use frequently.
+La **libreria di Dynamo** contiene i nodi da aggiungere all'area di lavoro per definire l'esecuzione di un programma visivo. Nella libreria, possiamo cercare o sfogliare i nodi. I nodi contenuti qui - i nodi base installati, i nodi personalizzati che abbiamo creato, e i nodi del Package Manager che possiamo aggiungere a Dynamo - sono organizzati gerarchicamente per categoria. Diamo un'occhiata a questa organizzazione ed esploriamo i nodi chiave che utilizzeremo frequentemente.
 
-###Library of Libraries
-The Dynamo **Library** that we interface with in the application is actually a collection of functional libraries, each containing Nodes grouped by Category. While this may seem obtuse at first, it is a flexible framework for organizing the Nodes that come with the default installation of Dynamo - and it's even better down the road when we start extending this base functionality with Custom Nodes and additional Packages.
+###Libreria di librerie
+La **libreria** di Dynamo presente nell'applicazione è in realtà una collezione di librerie funzionali, ognuna contenente dei nodi raggruppati per categoria. Sebbene possa sembrare confusionale in un primo momento, si tratta di una struttura flessibile per organizzare i nodi inclusi nell'installazione standard di Dynamo - ed è ancora più utile quando iniziamo ad estendere questa funzionalità base con i nodi personalizzati e i pacchetti aggiuntivi.
 
-####The Organizational Scheme
-The **Library** section of the Dynamo UI is composed of hierarchically organized libraries. As we drill down into the Library, we are sequentially browsing a library, the library's categories, and the category's sub-categories to find the Node.
+####Lo schema organizzativo
+La sezione **libreria** della UI di Dynamo è composta da librerie organizzate gerarchicamente. Scendendo sempre più a fondo nella libreria, stiamo sequenzialmente consultanto una libreria, le categorie di una libreria, le sottocategorie di una categoria per trovare un nodo.
 
 ![Library Hierarchy](images/3-3/00-LibraryBrowsing.png)
 
-> 1. The Library - The region of the Dynamo Interface
-2. A Library - A collection of related Categories, such as **Geometry**
-3. A Category - A collection of related Nodes such as everything related to **Circles**
-4. A Subcategory - Breakdown of the Nodes within the Category, typically by **Create**, **Action**, or **Query**
-5. A Node - The objects that are added to the Workspace to perform an action
+> 1. La libreria - La regione nell'interfaccia di Dynamo
+2. Una libreria - Una collezione di categorie correlate, come **Geometry**
+3. Una categoria - Una collezione di nodi correlati, come tutti quelli legati a **Circles**
+4. Una sottocategoria - Insieme di nodi all'interno di una categoria, tipicamente divisi in **Crea**, **Azione**  o **Query**
+5. Un nodo - Gli oggetti che vengono aggiunti all'area di lavoro per eseguire un'azione
 
-####Naming Conventions
-The hierarchy of each library is reflected in the Name of Nodes added to the Workspace, which we can also use in the Search Field or with Code Blocks (which use the *Dynamo textual language*). Beyond using key words to try to find Nodes, we can type the hierarchy separated with a period.
+####Convenzioni per la denominazione
+La gerarchia di ogni libreria è riflessa nel nome dei nodi aggiunti all'area di lavoro, che possiamo inserire anche nel campo di ricerca o nei blocchi di codice (che usano il *linguaggio testuale di Dynamo*). Oltre ad utilizzare le parole chiave per trovare i nodi, possiamo scrivere anche la gerarchia separata da un punto.
 
-Typing in different portions of the Node's place in the Library hierarchy in the ```library.category.nodeName``` format returns different results:
+Digitare nel campo di ricerca porzioni differenti del nome del nodo nel formato ```libreria.categoria.nomeNodo``` restituirà risultati diversi:
 
 ![Searching the Library - create from three "naming" pngs](images/3-3/01-LibrarySearching.png)
 
-> 1. ```library.category.nodeName```
-2. ```category.nodeName```
-3. ```nodeName``` or ```keyword```
+> 1. ```libreria.categoria.nomeNodo```
+2. ```categoria.nomeNodo```
+3. ```nomeNodo``` o ```parolaChiave```
 
-Typically the Name of the Node in the Workspace will be rendered in the ```category.nodeName``` format, with some notable exceptions particularly in the Input and View Categories. Beware of similarly named Nodes and note the category difference:
+Normalmente il nome del nodo nell'area di lavoro verrà visualizzato nel formato ```categoria.nomeNodo```, con alcuni eccezioni notevoli nelle categorie Input e View. Fai attenzione a nodi con nomi simili ed esamina le categorie di appartenenza:
 
 ![Node Names](images/3-3/02-NodeNames.png)
 
-> 1. ```Point.ByCoordinates``` and ```UV.ByCoordinates``` have the same Name but come from different categories
-2. Nodes from most libraries will include the category format
-3. Notable exceptions include Built-in Functions, Core.Input, Core.View, and Operators
+> 1. ```Point.ByCoordinates``` e ```UV.ByCoordinates``` hanno lo stesso nome ma categorie differenti
+2. I nodi della maggior parte delle librerie includono il formato completo del nome
+3. Le eccezioni notevoli includono funzioni Built-in, Core.Input, Core.View e gli Operatori.
 
-###Frequently Used Nodes
-With hundreds of Nodes included in the basic installation of Dynamo, which ones are essential for developing our Visual Programs? Let's focus on those that let us define our program's parameters (**Input**), see the results of a Node's action (**Watch**), and define inputs or functionality by way of a shortcut (**Code Block**).
+###Nodi frequentemente usati
+Tra i migliaia di nodi inclusi nell'installazione base di Dynamo, quali sono quelli essenziali per sviluppare i nostri programmi visivi? Concentriamoci su quelli che ci permettono di definire i parametri del nostro programma (**Input**), vedere il risultato dell'azione di un nodo (**Watch**), e definire input o funzioni in un modo più rapido (**Code Block**).
 
 ####Input
-Input Nodes are the primary means for the User of our Visual Program - be that yourself or someone else - to interface with the key parameters. Here are the Nodes available in the Input Category of the Core Library:
+I nodi di input sono gli strumenti primari per l'utente del nostro programma visivo - sia tu stesso o qualcun altro - per interfacciarsi con i parametri chiave. Questi sono i nodi disponibili nella categoria Input della libreria Core:
 
 ![Input Nodes](images/3-3/03-InputNodes.png)
 > 1. Boolean
@@ -50,26 +50,26 @@ Input Nodes are the primary means for the User of our Visual Program - be that y
 6. Directory Path
 7. File Path
 
-####Watch
-The Watch Nodes are essential to managing the data that is flowing through your Visual Program. While you can view the result of a Node through the Node data preview, you may want to keep it revealed in a **Watch** Node or see the geometry results through a **Watch3D** Node. Both of these are found in the View Category in the Core Library.
+####Nodi di osservazione
+I nodi di osservazione sono essenziali per gestire i dati che fluiscono nei tuoi programmi visivi. Sebbene sia possibile vedere il risultato di un nodo nell'anteprima dati del nodo stesso, potresti volerlo mantenere visibile in un nodo **Watch** o vedere le geometrie risultanti in un nodo **Watch3D**. Entrambi possono essere trovati nella categoria View della libreria Core. 
 
-> Tip: Occasionally the 3D Preview can be distracting when your Visual Program contains a lot of Nodes. Consider unchecking the Showing Background Preview option in the Settings Menu and using a Watch3D Node to preview your geometry.
+> Consiglio: Occasionalmente l'anteprima 3D potrebbe distrarre, soprattutto quando i tuoi programmi visivi contengono molti nodi. Considera la possibilità di disattivare l'opzione Mostra anteprima esecuzione nel menù Impostazioni ed usare un nodo Watch3D per vedere in anteprima la tua geometria.
 
 ![Watch and Watch3D](images/3-3/04-WatchNodes.png)
 
-> 1. Watch - Note that when you select an item in the Watch Node it will be tagged in the Watch3D and 3D Previews
-2. Watch3D - Grab the bottom right grip to resize and navigate with you mouse the same way you would in the 3D Preview
+> 1. Watch - Nota che quando selezioni un oggetto nel nodo Watch verrà evidenziato nei nodi Watch3D e nelle anteprime 3D
+2. Watch3D - Afferra l'angolo in basso a destra per ridimensionarlo e naviga con il tuo mouse nello stesso modo con cui navighi nell'anteprima 3D
 
-####Code Block
-**Code Block** Nodes can be used to define a block of code with lines separated by semi-colons. This can be as simple as ```X/Y```. We can also use Code Blocks as a short cut to defining a Number Input or call to another Node's functionality. The syntax to do so follows the Naming Convention of the Dynamo textual language in Section 3.2.3. Let's try to make a Circle with this shortcut:
+####Nodo del blocco di codice
+I nodi **Code Block** possono essere usati per definire un blocco di codice con righe separate da un punto e virgola. Può anche essere semplice come ```X/Y```. Possiamo anche usare i blocchi di codice come scoriatoie per definire un input numerico o richiamare una funzione di un altro nodo. In questo caso la sintassi segue le convenzioni per la denominazione incluse nel linguaggio testuale di Dynamo nella sezione 3.2.3. Proviamo a creare un cerchio con questa scorciatoia:
 
 ![Code Block Shortcut](images/3-3/05-CodeBlock.png)
 
->1. Double Click to create a **Code Block** Node
-2. Type ```Circle.ByCenterPointRadius(x,y);```
-3. Clicking on the Workspace to clear the selection should add ```x``` and ```y``` inputs automatically
-4. Create a **Point.ByCoordinates** Node and a **Number Slider** then connect them to the inputs of the Code Block
-5. The result of executing the Visual Program should be a circle in the 3D Preview
+>1. Esegui un doppio click per creare un nodo **Code Block**
+2. Digita ```Circle.ByCenterPointRadius(x,y);```
+3. Clicca nell'area di lavoro per aggiornare il nodo, gli input ```x``` e ```y``` dovrebbero aggiungersi automaticamente
+4. Crea un nodo **Point.ByCoordinates** e un **Number Slider** poi connettili agli input del blocco di codice
+5. Il risultato dell'esecuzione del programma visivo dovrebbe essere un cerchio nell'anteprima 3D
 
 
 

@@ -1,54 +1,43 @@
-##Nodes
+##I Nodi
 
-In Dynamo, **Nodes** are the objects you connect to form a Visual Program. Each **Node** performs an operation - sometimes that may be as simple as storing a number or it may be a more complex action such as creating or querying geometry.
+In Dynamo, i **nodi** sono oggetti che puoi connettere tra di loro per creare un programma visivo. Ogni **nodo** esegue un'operazione - a volte potrebbe essere semplice come archiviare un numero o potrebbe essere un'azione più complessa come creare una geometria.
 
-###Anatomy of a Node
-Most Nodes in Dynamo are composed of five parts. While there are exceptions, such as Input Nodes, the anatomy of each Node can be described as follows:
+###L'anatomia di un nodo
+La maggior parte dei nodi in Dynamo sono composti da cinque parti. Sebbene ci possano essere delle eccezioni, come i nodi di input, l'anatomia di ogni nodo può essere descritta come segue:
 ![Node Breakdown Point by Coordinates](images/3-1/00-AnatomyOfANode.png)
->1. Name - The Name of the Node with a Category.Name naming convention
-2. Main - The main body of the Node - Right-clicking here presents options at the level of the whole Node
-3. Ports (In and Out) - The receptors for Wires that supply the input data to the Node as well as the results of the Node's action
-4. Data Preview - Hover or click to see a tooltip describing the results of the Node's action
-5. Lacing Icon - Indicates the Lacing option specified for matching list inputs (more on that later)
+>1. Nome - Il nome del nodo seguendo la convenzione Categoria.Nome
+2. Corpo - Il corpo principale del nodo - Cliccare con il tasto destro qui ti permette di accedere alle opzioni per controllare l'intero nodo
+3. Porte (input ed output) - I recettori dei wire che forniscono i dati di input al nodo e restituiscono il risultato dell'azione del nodo
+4. Anteprima dei dati - Posiziona il mouse o clicca qui per vedere una finestra con i risultati dell'azione del nodo
+5. Icona di collegamento - Indica l'opzione di collegamento specificata per elaborare le liste in input (maggiori informazioni più avanti)
 
-### Ports
-The Inputs and Outputs for Nodes are called Ports and act as the receptors for Wires. Data comes into the Node through Ports on the left and flows out of the Node after it has executed its operation on the right. Ports expect to receive data of a certain type. For instance, connecting a number such as *2.75* to the Ports on a Point By Coordinates Node will successfully result in creating a Point; however, if we supply *"Red"* to the same Port it will result in an error.
+### Porte
+Gli input e gli output dei nodi sono chiamati porte e agiscono come ricettori per i wire. I dati arrivano al nodo passando per le porte sulla sinistra ed escono, dopo che il nodo ha eseguito le sue operazioni, a destra. Le porte si aspettano di ricevere dati di un certo tipo. Per esempio, connettere un numero come *2.75* alle porte di un nodo Point By Coordinates creerà con successo un punto; invece, se forniamo *"Rosso"* alla stessa porta otteremo un errore. 
 
-> Tip: Hover over a Port to see a tooltip containing the data type expected.
+> Consiglio: Posiziona il mouse su una porta per vedere una finestra rapida con il tipo di dato è previsto.
 
 ![Port Labels-Point by Coordinates](images/3-1/01-Ports.png)
->1. Port Label
-2. Tool Tip
-3. Data Type
+>1. Etichetta della porta
+2. Finestra rapida
+3. Tipo di dato
 
-###States
-Dynamo gives an indication of the state of the execution of your Visual Program by rendering Nodes with different color schemes based on each Node's status. Furthermore, hovering or right-clicking over the Name or Ports presents additional information and options.
+###Stato
+Dynamo dà un indicatore dello stato dell'esecuzione del tuo programma visivo visualizzando i nodi con uno schema di colori differenti in base alla condizione di ogni modo. Inoltre posizionare il mouse o cliccare con il tasto destro sul nome o sulle porte ci darà ulteriori informazioni e opzioni.
 
 ![States](images/3-1/02-States2.png)
 
->1. Inactive - Grey Nodes are inactive and need to be connected with Wires to be part of the Program Flow in the active Workspace
-2. Active - Nodes with a Dark Grey Name background are well-connected and have all of their inputs successfully connected
-3. Warning - Yellow Nodes are in an Error state
-4. Selected - Currently selected Nodes have an Aqua highlight on their border
-5. Default Value - Right-click on an input Port - some Nodes have default values that can be used or not used
+>1. Inattivo - I nodi grigi sono inattivi e devono essere connessi con dei wire per essere parte integrante del flusso del programma
+2. Attivo - I nodi con uno sfondo grigio scuro sono ben connessi ed hanno tutti i loro input collegati con successo
+3. Avvertimento - I nodi gialli contengono un errore
+4. Selezionato - I nodi attualmente selezionati hanno un bordo blu
+5. Valore di default - Click con il tasto destro su una porta di input - alcuni nodi hanno un valore di default che può essere usato o meno.
 
-If your Visual Program contains warning or errors, Dynamo will provide additional information about the problem. Any Node that is Yellow will also have a tooltip above the Name. Hover your mouse over the tooltip to expand it.
+Se i tuoi programmi visivi contengono degli avvertimenti o degli errori, Dynamo ti fornirà delle informazioni aggiuntive sul problema. Ogni nodo giallo avrà anche un suggerimento al di sopra del nome. Posiziona li il tuo mouse per espanderlo.
 
-> Tip: With this tooltip information in hand, examine the upstream Nodes to see if the data type or data structure required is in error.
+> Consiglio: Una volta lette le informazioni sull'errore, esamina i nodi precedenti per vedere se il tipo o la struttura dei dati sono la causa dell'errore.
 
 ![Node Errors Tooltip](images/3-1/03-WarningTooltip.png)
 
-> 1. Warning Tooltip - "Null" or no data cannot be understood as a Double ie. a number
-2. Use the Watch Node to examine the input data
-3. Upstream the Number Node is storing "Red" not a number
-
-
-
-
-
-
-
-
-
-
-
+> 1. Consiglio sull'avvertimento - Un dato "nullo" o nessun dato non può essere letto come un dato Double (per esempio un numero)
+2. Usa il nodo Watch per esaminare i dati in input
+3. Il nodo Number precedente ha come valore "red" e non un numero.

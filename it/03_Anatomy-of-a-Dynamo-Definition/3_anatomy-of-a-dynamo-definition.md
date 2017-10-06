@@ -1,5 +1,5 @@
-#ANATOMY OF A VISUAL PROGRAM
+#L'ANATOMIA DI UN PROGRAMMA VISIVO
 
-Dynamo enables us to create Visual Programs in a Workspace by connecting Nodes with Wires to specify the logical flow of the resulting Visual Program. This chapter introduces the elements of Visual Programs, the organization of the Nodes available in Dynamo's Libraries, the parts and states of Nodes, and best practices for your Workspaces.
+Dynamo ci permette di creare dei programmi visivi in un'area di lavoro connettendo i nodi con i wire per determinare il flusso logico del programma. Questo capitolo introduce gli elementi fondamentali dei programmi visivi, l'organizzazione dei nodi disponibili nella libreria di Dynamo, gli stati e le componenti dei nodi, e le pratiche migliori per gestire la tua area di lavoro.
 
 ![Anatomy Main](images/3/The Anatomy of Visual Programming-01.png)

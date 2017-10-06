@@ -1,6 +1,6 @@
-###Cosa è la programmazione visuale?
+###Cosa è la programmazione visiva?
 
-Progettare spesso richiede stabilire relazioni visuali, sistemiche o geometriche tra le parti di un progetto. La maggior parte delle volte, queste relazioni sono sviluppate dal flusso di lavoro, che ci porta dal concept al risultato seguendo delle regole. Forse senza saperlo, noi lavoriamo algoritmicamente - definendo un serie di azioni passo dopo passo che segue una logica base di input, elaborazione e output. Programmare ci permette di continuare a lavorare in questo modo ma formalizzando il nostro algoritmo.
+Progettare spesso richiede stabilire relazioni visive, sistemiche o geometriche tra le parti di un progetto. La maggior parte delle volte, queste relazioni sono sviluppate dal flusso di lavoro, che ci porta dal concept al risultato seguendo delle regole. Forse senza saperlo, noi lavoriamo algoritmicamente - definendo un serie di azioni passo dopo passo che segue una logica base di input, elaborazione e output. Programmare ci permette di continuare a lavorare in questo modo ma formalizzando il nostro algoritmo.
 
 ###Algoritmi nel concreto
 Sebbene offra delle potenti oppurtunità, il termine **Algoritmo** può portare a dei fraintendimenti. Gli algoritmi possono generare risultati inaspettati, imprevedibili o fantastici, ma non sono magici. Infatti sono abbastanza semplici di per sé. Usiamo un esempio concreto come l'origami di una gru. Iniziamo con un pezzo di carta quadrato (input), seguiamo una serie di ripiegamenti (elaborazione), ed il risultato è una gru (output).
@@ -34,14 +34,14 @@ Usando una qualunque di queste due serie di istruzioni dovresti ottenere una gru
 
 La chiave ed il primo ostacolo che incontreremo nel capire la programmazione è che dovremo affidarci a una qualche forma di astrazione per comunicare efficacemente con il nostro computer. Questa può essere uno qualunque dei numerosi linguaggi di programmazione, come Javascript, Python o C. Se riusciamo a scrivere una serie di istruzioni ripetibili, come per l'origami della gru, ciò che dobbiamo fare è tradurla per il computer. Siamo sulla buona strada per rendere il computer capace di realizzare una gru, o perfino una moltitudine di gru diverse, con leggere differenze tra una e l'altra. Questo è la potenza della programmazione - il computer eseguirà ripetutamente qualsiasi compito, o serie di compiti, gli assegneremo, senza ritardi e senza errori umani.
 
-####Programmazione visuale - Definizione
+####Programmazione visiva - Definizione
 >Scarica il file di esempio che accompagna questo esercizio (tasto destro e "Salva Link come..."): [Visual Programming - Circle Through Point.dyn](datasets/1-1/Visual Programming - Circle Through Point.dyn). Una lista completa dei file di esempio può essere trovata nell'Appendice.
 
 Se fossi incaricato di scrivere le istruzioni per piegare l'origami della gru, come ti comporteresti? Useresti la grafica, il testo o una combinazione di entrambi?
 
-Se la tua risposta contiene la grafica, la **Programmazione visuale** fa senz'altro per te. Il processo è essenzialmente il medesimo sia per la programmazione che per la programmazione visuale. Utilizzano la stessa struttura e formalizzazione; ciò nonostante, definiamo le istruzioni e le relazioni del nostro programma tramite un'interfaccia utente grafica (o "visuale"). Invece di digitare le istruzioni testuali in una sintassi, ci basterà connettere dei nodi preconfezionati tra loro. Ecco un confronto dello stesso algoritmo - "disegna un cerchio sulla base di un punto" - programmato con i nodi e con il codice:
+Se la tua risposta contiene la grafica, la **Programmazione visiva** fa senz'altro per te. Il processo è essenzialmente il medesimo sia per la programmazione che per la programmazione visiva. Utilizzano la stessa struttura e formalizzazione; ciò nonostante, definiamo le istruzioni e le relazioni del nostro programma tramite un'interfaccia utente grafica (o "visiva"). Invece di digitare le istruzioni testuali in una sintassi, ci basterà connettere dei nodi preconfezionati tra loro. Ecco un confronto dello stesso algoritmo - "disegna un cerchio sulla base di un punto" - programmato con i nodi e con il codice:
 
-**Programma visuale:**
+**programma visivo:**
 
 ![Basic Visual Program ](images/1-1/03-BasicVisualProgram.png)
 
@@ -58,4 +58,4 @@ Il risultato dei nostri algoritmi:
 
 ![Circle Through Point ](images/1-1/04-CircleThroughPoint.png)
 
-La caratteristica visuale della programmazione, in questo modo, riduce le barriere per la comprensione dell'algoritmo e spesso è più apprezzata dai progettisti. Dynamo ricade nel paradigma della programmazione visuale ma, come vedremo più avanti, possiamo anche utilizzare la programmazione testuale.
+La caratteristica visiva della programmazione, in questo modo, riduce le barriere per la comprensione dell'algoritmo e spesso è più apprezzata dai progettisti. Dynamo ricade nel paradigma della programmazione visiva ma, come vedremo più avanti, possiamo anche utilizzare la programmazione testuale.
